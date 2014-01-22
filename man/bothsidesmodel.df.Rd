@@ -1,0 +1,35 @@
+\name{bothsidesmodel.df}
+\alias{bothsidesmodel.df}
+\title{
+Obtain the degrees of freedom for a model. 
+}
+\description{
+Determines the denominators needed to calculate an unbiased estimator of \eqn{\Sigma_R}.
+}
+\usage{
+bothsidesmodel.df(xx, n, pattern)
+}
+\arguments{
+  \item{xx}{Result of \eqn{(X^T * X)}, where T denotes tranpose.}
+  \item{n}{Number of rows in observation matrix given}
+  \item{pattern}{An \eqn{N x P} matrix of 0's and 1's indicating which elements of \eqn{\beta} are allowed to be nonzero.}
+}
+\value{
+Returns a double matrix of size \eqn{N x N} containing the degrees of freedom for the test.
+}
+\seealso{
+\code{\link{bothsidesmodel}},\code{\link{bothsidesmodel.chisquare}},\code{\link{bothsidesmodel.hotelling}},\code{\link{bothsidesmodel.lrt}}, and \code{\link{bothsidesmodel.mle}}.
+}
+\examples{
+#Find the DF for a likelihood ratio test statistic.
+x = cbind(1,c(-2,-1,0,1,2),c(2,-1,-2,-1,2),c(-1,2,0,-2,1),c(1,-4,6,-4,1))
+# or x = cbind(1,poly(1:5,4))
+data(skulls)
+x = kronecker(x,rep(1,30))
+y = skulls[,1:4]
+z = diag(4)
+pattern = rbind(c(1,1,1,1),1,0,0,0)
+xx = t(x)\%*\%x
+bothsidesmodel.df(xx,nrow(y),pattern)
+}
+\keyword{bothsidesmodel}

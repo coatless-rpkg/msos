@@ -9,11 +9,11 @@
 Package: \tab msos\cr
 Type: \tab Package\cr
 Version: \tab 1.0.1\cr
-Date: \tab 2014-01-12\cr
-License: \tab MIT License\cr
+Date: \tab 2014-01-22\cr
+License: \tab MIT \cr
 }
 }
-\author{John Marden
+\author{John Marden [aut, cph] and James Balamuta [cre, ctb, com]
 
 Maintainer: James Balamuta <james.balamuta@gmail.com>
 }

@@ -23,10 +23,13 @@ A list with the following components:
 \item{values}{Estimated negentropies for the three rotated variables, from largest to smallest.}
 }
 \examples{
+\dontrun{
+#Running this example will take approximately 30s.
 #Centers and scales the variables.
 y = scale(as.matrix(iris[,1:3]))
 
 #Obtains Negent Vectors for 3x3 matrix
-gstar = negent3D(y,nstart=10)$vectors
+gstar = negent3D(y,nstart=100)$vectors
+}
 }
 \keyword{negent}

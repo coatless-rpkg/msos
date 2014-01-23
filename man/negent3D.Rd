@@ -19,7 +19,7 @@ negent3D(y, nstart = 1, m = 100, ...)
 }
 \value{
 A list with the following components:
-\item{vectors}{The \eqn{3 ? 3} orthogonal matrix G that optimizes the negentropy.}
+\item{vectors}{The \eqn{3 x 3} orthogonal matrix G that optimizes the negentropy.}
 \item{values}{Estimated negentropies for the three rotated variables, from largest to smallest.}
 }
 \examples{

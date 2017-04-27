@@ -1,14 +1,15 @@
 Package: msos
 Type: Package
 Title: Datasets and Functions used in Multivariate Statistics: Old School by John Marden
-Version: 1.0.1
-Date: 2014-01-22
+Version: 1.0.2
+Date: 2017-04-27
 Depends: R (>= 3.0.0), mclust, tree
 Authors@R: c(person("John", "Marden", role = c("aut", "cph"),
                     email = "jimarden@illinois.edu"),
 	     person("James", "Balamuta", role = c("cre", "ctb",
                   "com"),email = "james.balamuta@gmail.com"))
-Author: John Marden [aut, cph] and James Balamuta [cre, ctb, com]
-Maintainer: James Balamuta <james.balamuta@gmail.com>
-Description: Contains necessary Multivariate Analysis methods and Datasets used in STAT 571 at the University of Illinois at Urbana-Champaign
+Description: Contains necessary Multivariate Analysis methods and datasets used
+    in STAT 571: Multivariate Analysis at the University of Illinois at
+    Urbana-Champaign (UIUC).
 License: MIT + file LICENSE
+RoxygenNote: 6.0.1

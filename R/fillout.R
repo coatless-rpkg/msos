@@ -1,3 +1,17 @@
+#' Make a square matrix
+#' 
+#' The function fillout takes a \eqn{Q \times (Q - L)}{Q x (Q-L)} matrix \eqn{Z}
+#' and fills it out so that it is a square matrix \eqn{Q \times Q}{Q x Q}.
+#' @param z A \eqn{Q \times (Q-L)}{Q x (Q-L)} matrix
+#' @return A square matrix \eqn{Q \times Q}{Q x Q}
+#' @export
+#' @seealso \code{\link{tr}}, \code{\link{logdet}}
+#' @examples
+#' # Create a 3 x 2 matrix
+#' a <- cbind(c(1, 2, 3), c(4, 5, 6))
+#' 
+#' # Creates a 3 x 3 Matrix from 3 x 2 Data
+#' fillout(a)
 fillout <-
 function(z) {
 	if(is.vector(z)) z <- matrix(z,ncol=1)

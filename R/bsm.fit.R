@@ -1,3 +1,39 @@
+#' Helper function to determine \eqn{\beta} estimates for MLE regression with
+#' patterning.
+#' 
+#' Generates \eqn{\beta} estimates for MLE using a conditioning approach with
+#' patterning support.
+#' @param x         An \eqn{N \times (P + F)}{N x (P + F)} design matrix, where 
+#'                  \eqn{F} is the number of columns conditioned on. This is
+#'                  equivalent to the multiplication of \eqn{xyzb}.
+#' @param y         The \eqn{N \times (Q - F)}{N x (Q - F)} matrix of 
+#'                  observations, where \eqn{F} is the number of columns
+#'                  conditioned on. This is equivalent to the multiplication
+#'                  of \eqn{Yz_a}.
+#' @param z         A \eqn{(Q - F) \times L}{(Q - F) x L} design matrix, 
+#'                  where \eqn{F} is the number of columns conditioned on.
+#' @param pattern   An optional \eqn{N-F x F} matrix of 0's and 1's indicating
+#'                  which elements of \eqn{\beta} are allowed to be nonzero.
+#' @return A list with the following components:
+#' \describe{
+#'   \item{Beta}{The least-squares estimate of \eqn{\beta}.}
+#'   \item{SE}{The \eqn{(P+F)\times L}{(P + F) x L} matrix with the \eqn{ij}th
+#'             element being the standard error of \eqn{\hat{\beta}_ij}.}
+#'   \item{T}{The \eqn{(P+F)\times L}{(P + F) x L} matrix with the \eqn{ij}th
+#'            element being the t-statistic based on \eqn{\hat{\beta}_ij}.}
+#'   \item{Covbeta}{The estimated covariance matrix of the \eqn{\hat{\beta}_ij}'s.}
+#'   \item{df}{A \eqn{p}-dimensional vector of the degrees of freedom for the
+#'             \eqn{t}-statistics, where the \eqn{j}th component contains the
+#'             degrees of freedom for the \eqn{j}th column of \eqn{\hat{\beta}}.}
+#'   \item{Sigmaz}{The \eqn{(Q - F) \times (Q - F)}{(Q - F) x (Q - F)} 
+#'                 matrix \eqn{\hat{\Sigma}_z}.}
+#'   \item{Cx}{The \eqn{Q \times Q}{Q x Q} residual sum of squares and
+#'             crossproducts matrix.}
+#' }
+#' @export
+#' @seealso \code{\link{bothsidesmodel.mle}} and \code{\link{bsm.simple}}
+#' @examples
+#' # NA
 bsm.fit <-
 function(x,y,z,pattern) {
 	n <- nrow(y)

@@ -12,6 +12,14 @@ This is also serves as a companion package for the
 STAT 571: Multivariate Analysis course at the University of Illinois
 at Urbana-Champaign (UIUC).
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/coatless/msos}
+  \item Report bugs at \url{https://github.com/coatless/msos/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: James Balamuta \email{james.balamuta@gmail.com} [contributor, compiler]
 

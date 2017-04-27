@@ -5,4 +5,4 @@
 `msos` R package
 ================
 
-Contains necessary Multivariate Analysis methods and data sets used in John Marden's Multivariate Statistics: Old School (2015) <ISBN:978-1456538835>. This is also a companion package for the STAT 571: Multivariate Analysis course at the University of Illinois at Urbana-Champaign (UIUC).
+Contains necessary Multivariate Analysis methods and data sets used in John Marden's Multivariate Statistics: Old School (2015) \[ISBN: 978-1456538835\]. This is also a companion package for the STAT 571: Multivariate Analysis course at the University of Illinois at Urbana-Champaign (UIUC).

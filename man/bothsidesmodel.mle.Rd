@@ -4,8 +4,7 @@
 \alias{bothsidesmodel.mle}
 \title{Calculate the maximum likelihood estimates}
 \usage{
-bothsidesmodel.mle(x, y, z = diag(qq), pattern = matrix(1, nrow = p, ncol =
-  l))
+bothsidesmodel.mle(x, y, z = diag(qq), pattern = matrix(1, nrow = p, ncol = l))
 }
 \arguments{
 \item{x}{An \eqn{N \times P}{N x P} design matrix.}

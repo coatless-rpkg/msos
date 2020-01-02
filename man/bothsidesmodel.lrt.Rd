@@ -4,8 +4,13 @@
 \alias{bothsidesmodel.lrt}
 \title{Test subsets of \eqn{\beta} are zero.}
 \usage{
-bothsidesmodel.lrt(x, y, z, pattern0, patternA = matrix(1, nrow = ncol(x),
-  ncol = ncol(z)))
+bothsidesmodel.lrt(
+  x,
+  y,
+  z,
+  pattern0,
+  patternA = matrix(1, nrow = ncol(x), ncol = ncol(z))
+)
 }
 \arguments{
 \item{x}{An \eqn{N \times P}{N x P} design matrix.}

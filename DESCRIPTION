@@ -3,13 +3,16 @@ Type: Package
 Title: Data Sets and Functions Used in Multivariate Statistics: Old School by John Marden
 Version: 1.1.1
 Depends: R (>= 3.0.0), mclust, tree
-Authors@R: c(person("John", "Marden", role = c("aut", "cph"),
+Authors@R: c(
+             person("John", "Marden", role = c("aut", "cph"),
                     email = "jimarden@illinois.edu"),
 	           person("James", "Balamuta", role = c("cre", "ctb", "com"), 
-	                  email = "james.balamuta@gmail.com"))
+	                  email = "james.balamuta@gmail.com", 
+                    comment = c(ORCID = "0000-0003-2826-8458"))
+            )
 Description: Multivariate Analysis methods and data sets used
     in John Marden's book Multivariate Statistics: Old School (2015) <ISBN:978-1456538835>.
-    This is also serves as a companion package for the 
+    This also serves as a companion package for the 
     STAT 571: Multivariate Analysis course at the University of Illinois
     at Urbana-Champaign (UIUC). 
 License: MIT + file LICENSE

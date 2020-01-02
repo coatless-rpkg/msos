@@ -2,8 +2,7 @@
 % Please edit documentation in R/pcbic.R
 \name{pcbic}
 \alias{pcbic}
-\title{BIC for a particular pattern
-Find the BIC and MLE from a set of observed eigenvalues for a specific pattern.}
+\title{BIC for a particular pattern}
 \usage{
 pcbic(eigenvals, n, pattern)
 }
@@ -17,7 +16,7 @@ in order from largest to smallest.}
 \eqn{K}-vector (\eqn{Q_1}, ... , \eqn{Q_K}) as in (13.8).}
 }
 \value{
-A list with the following components:
+A `list` with the following components:
 \describe{
  \item{lambdaHat}{A \eqn{Q}-vector containing the MLE's for the eigenvalues.}
  \item{Deviance}{The deviance of the model, as in (13.13).}
@@ -26,7 +25,6 @@ A list with the following components:
 }
 }
 \description{
-BIC for a particular pattern
 Find the BIC and MLE from a set of observed eigenvalues for a specific pattern.
 }
 \examples{

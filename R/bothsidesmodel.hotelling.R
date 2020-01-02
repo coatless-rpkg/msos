@@ -2,12 +2,16 @@
 #' 
 #' Performs tests of the null hypothesis H0 : \eqn{\beta^*} = 0, where 
 #' \eqn{\beta^*} is a block submatrix of \eqn{\beta} as in Section 7.2.
+#' 
 #' @param x    An \eqn{N \times P}{N x P} design matrix.
 #' @param y    The \eqn{N \times Q}{N x Q} matrix of observations.
 #' @param z    A \eqn{Q \times L}{Q x L} design matrix
 #' @param rows The vector of rows to be tested.
 #' @param cols The vector of columns to be tested.
-#' @return A list with the following components:
+#' 
+#' @return 
+#' A list with the following components:
+#' 
 #' \describe{
 #'  \item{Hotelling}{A list with the components of the Lawley-Hotelling \eqn{T^2} test (7.22)}
 #'  \describe{
@@ -24,10 +28,12 @@
 #'    \item{pvalue}{The p-value of the \eqn{\chi ^2}}.
 #'  }
 #' }
-#' @export
+#'
 #' @seealso \code{\link{bothsidesmodel}}, \code{\link{bothsidesmodel.chisquare}},
 #'          \code{\link{bothsidesmodel.df}}, \code{\link{bothsidesmodel.lrt}},
 #'           and \code{\link{bothsidesmodel.mle}}.
+#'
+#' @export
 #' @examples
 #' # Finds the Hotelling values for example 7.3.1
 #' data(mouths)

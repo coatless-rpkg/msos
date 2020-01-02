@@ -3,6 +3,7 @@
 #' 
 #' Generates \eqn{\beta} estimates for MLE using a conditioning approach with
 #' patterning support.
+#'
 #' @param x         An \eqn{N \times (P + F)}{N x (P + F)} design matrix, where 
 #'                  \eqn{F} is the number of columns conditioned on. This is
 #'                  equivalent to the multiplication of \eqn{xyzb}.
@@ -14,7 +15,9 @@
 #'                  where \eqn{F} is the number of columns conditioned on.
 #' @param pattern   An optional \eqn{N-F x F} matrix of 0's and 1's indicating
 #'                  which elements of \eqn{\beta} are allowed to be nonzero.
-#' @return A list with the following components:
+#'
+#' @return
+#' A list with the following components:
 #' \describe{
 #'   \item{Beta}{The least-squares estimate of \eqn{\beta}.}
 #'   \item{SE}{The \eqn{(P+F)\times L}{(P + F) x L} matrix with the \eqn{ij}th
@@ -30,8 +33,10 @@
 #'   \item{Cx}{The \eqn{Q \times Q}{Q x Q} residual sum of squares and
 #'             crossproducts matrix.}
 #' }
-#' @export
+#' 
 #' @seealso \code{\link{bothsidesmodel.mle}} and \code{\link{bsm.simple}}
+#' 
+#' @export
 #' @examples
 #' # NA
 bsm.fit <-

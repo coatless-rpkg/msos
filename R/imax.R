@@ -1,8 +1,12 @@
 #' Obtain largest value index
 #' 
 #' Obtains the index of a vector that contains the largest value in the vector.
+#' 
 #' @param z A vector of any length
-#' @return The index of the largest value in a vector.
+#' 
+#' @return
+#' The index of the largest value in a vector.
+#' 
 #' @export
 #' @examples
 #' # Iris example

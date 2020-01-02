@@ -5,15 +5,18 @@
 #' 
 #' @param x The \eqn{N \times P}{N x P} data matrix.
 #' @param y The \eqn{N}-vector of group identities, assumed to be given by the numbers 1,...,\eqn{K} for \eqn{K} groups.
-#' @return A list with the following components:
+#' 
+#' @return 
+#' A list with the following components:
 #' \describe{
 #'   \item{a}{A \eqn{P x K} matrix, where column \eqn{K} contains the
 #'            coefficents \eqn{a_k} for (11.31). The final column is all zero.}
 #'   \item{c}{The \eqn{K}-vector of constants \eqn{c_k} for (11.31).
 #'            The final value is zero.}
 #' }
-#' @export
+#' 
 #' @seealso \code{\link{sweep}}
+#' @export
 #' @examples
 #' # Iris example
 #' x.iris <- as.matrix(iris[,1:4])

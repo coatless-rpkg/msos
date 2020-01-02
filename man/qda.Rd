@@ -13,7 +13,7 @@ qda(x, y)
 numbers 1,...,\eqn{K} for \eqn{K} groups.}
 }
 \value{
-A list with the following components: 
+A `list` with the following components: 
 \describe{
   \item{Mean}{A \eqn{P \times K}{P x K} matrix, where column \eqn{K} contains
               the coefficents \eqn{a_k} for (11.31). The final column is all

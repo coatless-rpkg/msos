@@ -2,15 +2,20 @@
 #' 
 #' Searches for the rotation that maximizes the estimated negentropy of the
 #' first column of the rotated data, for \eqn{q = 2} dimensional data. 
+#' 
 #' @param y The \eqn{n \times 2}{n x 2} data matrix.
-#' @param m The number of angles (between \eqn{0} and \eqn{\pi}) over which to search.
-#' @return A list with the following components:
+#' @param m The number of angles (between \eqn{0} and \eqn{\pi}) over which 
+#'          to search.
+#' @return 
+#' A list with the following components:
 #' \describe{
 #'   \item{vectors}{The \eqn{2 ? 2} orthogonal matrix G that optimizes the negentropy.}
 #'   \item{values}{Estimated negentropies for the two rotated variables. The largest is first.}
 #' }
-#' @export
+#' 
 #' @seealso \code{\link{negent}}, \code{\link{negent3D}}
+#' 
+#' @export
 #' @examples
 #' # Load iris data
 #' data(iris)

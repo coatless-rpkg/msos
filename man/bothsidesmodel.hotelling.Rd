@@ -19,6 +19,7 @@ bothsidesmodel.hotelling(x, y, z, rows, cols)
 }
 \value{
 A list with the following components:
+
 \describe{
  \item{Hotelling}{A list with the components of the Lawley-Hotelling \eqn{T^2} test (7.22)}
  \describe{

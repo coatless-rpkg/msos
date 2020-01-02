@@ -6,6 +6,7 @@
 #' in Section 7.1. The null and alternative are specified by pattern matrices
 #' \eqn{P_0} and \eqn{P_A}, respectively. If the \eqn{P_A} is omitted, then the
 #' alternative will be taken to be the unrestricted model.
+#' 
 #' @param x        An \eqn{N \times P}{N x P} design matrix.
 #' @param y        The \eqn{N \times Q}{N x Q} matrix of observations.
 #' @param z        A \eqn{Q \times L}{Q x L} design matrix.
@@ -13,7 +14,10 @@
 #'                 the null hypothesis.
 #' @param patternA An optional \eqn{N \times P}{N x P} matrix of 0's and 1's 
 #'                 specifying the alternative hypothesis.
-#' @return A list with the following components:
+#'                 
+#' @return
+#' A `list` with the following components:
+#' 
 #' \describe{
 #'   \item{Theta}{The vector of estimated parameters of interest.}
 #'   \item{Covtheta}{The estimated covariance matrix of the estimated parameter vector.}
@@ -21,6 +25,7 @@
 #'   \item{chisq}{\eqn{T^2} statistic in (7.4).}
 #'   \item{pvalue}{The p-value for the test.}
 #' }
+#' 
 #' @seealso \code{\link{bothsidesmodel}}, \code{\link{bothsidesmodel.df}},
 #'          \code{\link{bothsidesmodel.hotelling}}, \code{\link{bothsidesmodel.lrt}},
 #'          and \code{\link{bothsidesmodel.mle}}.

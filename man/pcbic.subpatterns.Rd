@@ -16,7 +16,7 @@ in order from largest to smallest.}
 \eqn{K}-vector (\eqn{Q_1}, ... , \eqn{Q_K}) as in (13.8).}
 }
 \value{
-A list containing:
+A `list` containing:
 \describe{
   \item{pattern}{A double matrix containing the pattern evaluated.}
   \item{bic}{A vector containing the BIC for the above pattern matrix.}

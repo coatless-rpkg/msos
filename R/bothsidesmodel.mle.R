@@ -3,13 +3,16 @@
 #' This function fits the model using maximum likelihood. It takes an optional
 #' pattern matrix \eqn{P} as in (6.51), which specifies which \eqn{\beta _{ij}}'s
 #' are zero. 
+#'
 #' @param x       An \eqn{N \times P}{N x P} design matrix.
 #' @param y       The \eqn{N \times Q}{N x Q} matrix of observations.
 #' @param z       A \eqn{Q \times L}{Q x L} design matrix
 #' @param pattern An optional \eqn{N \times P}{N x P} matrix of 0's and 1's
 #'                indicating which elements of \eqn{\beta} are allowed to be
 #'                nonzero.
-#' @return A list with the following components:
+#'
+#' @return 
+#' A list with the following components:
 #' \describe{
 #'  \item{Beta}{The least-squares estimate of \eqn{\beta}.}
 #'  \item{SE}{The \eqn{P \times L}{P x L} matrix with the \eqn{ij}th element
@@ -31,10 +34,12 @@
 #'  \item{AICc}{The corrected AIC criterion from (9.87) and (aic19)}
 #'  \item{BIC}{The BIC criterion from (9.56).}
 #' }
-#' @export
+#'
 #' @seealso \code{\link{bothsidesmodel.chisquare}}, \code{\link{bothsidesmodel.df}},
 #'          \code{\link{bothsidesmodel.hotelling}}, \code{\link{bothsidesmodel.lrt}},
 #'          and \code{\link{bothsidesmodel}}.
+#'
+#' @export
 #' @examples
 #' data(mouths)
 #' x <- cbind(1, mouths[, 5])

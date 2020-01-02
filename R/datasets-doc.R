@@ -25,7 +25,6 @@
 #' question of interest is whether people remembered more objects after the
 #' Coke without caffeine than after the Coke with caffeine.
 #' 
-#' 
 #' @format A double matrix with 28 observations on the following 3 variables.
 #' \describe{ 
 #' \item{Grade}{Grade of the Student, which is either 8th, 10th, or 12th}
@@ -44,7 +43,6 @@
 #' Inc., 2009] data frame cu.dimensions. In cars, the variables have been
 #' normalized to have medians of 0 and median absolute deviations (MAD) of
 #' 1.4826 (the MAD for a N(0, 1)).
-#' 
 #' 
 #' @format A double matrix with 111 observations on the following 11 variables.
 #' \describe{ 
@@ -81,7 +79,6 @@
 #' means are all zero. (The original data can be found in the S-Plus [TIBCO
 #' Software Inc., 2009] data set cereal.attitude.)
 #' 
-#' 
 #' @format A double matrix with 8 observations on the following 11 variables.
 #' \describe{ 
 #'   \item{Return}{A cereal one would come back to}
@@ -107,7 +104,6 @@
 #' morphological measurements on 50 crabs each of two colour forms and both
 #' sexes, of the species \emph{Leptograpsus variegatus} collected at Fremantle,
 #' W. Australia.
-#' 
 #' 
 #' @format This data frame contains the following columns: 
 #' \describe{
@@ -136,7 +132,6 @@
 #' of ten events) at the 2008 Olympics. The scores are the numbers of points
 #' each participant received in each event, plus each person's total points.
 #' 
-#' 
 #' @format A double matrix with 24 observations on the following 11 variables.
 #' \describe{ 
 #'   \item{X_100meter}{Individual point score for 100 Meter event.}
@@ -160,7 +155,6 @@
 #' The decathlon data set has scores on the top 26 men in the decathlon (a set
 #' of ten events) at the 2012 Olympics. The scores are the numbers of points
 #' each participant received in each event, plus each person's total points.
-#' 
 #' 
 #' @format A double matrix with 26 observations on the following 11 variables.
 #' \describe{ 
@@ -186,7 +180,6 @@
 #' plus the District of Columbia, and the values are the (D - R)/(D + R) for
 #' each state and each year, where D is the number of votes the Democrat
 #' received, and R is the number the Republican received.
-#' 
 #' 
 #' @format A double matrix with 51 observations on the following 3 variables.
 #' \describe{ 
@@ -295,7 +288,6 @@
 #' found in Potthoff and Roy [1964]. There are 11 girls (Sex=1) and 16 boys
 #' (Sex=0).
 #' 
-#' 
 #' @format A data frame with 27 observations on the following 5 variables.
 #' \describe{ 
 #'   \item{Age8}{Measurement on child's month at age eight.}
@@ -317,7 +309,6 @@
 #' painters.  The painters were assessed on four characteristics: composition,
 #' drawing, colour and expression.  The data is due to the Eighteenth century
 #' art critic, de Piles.
-#' 
 #' 
 #' @format The row names of the data frame are the painters. The components
 #' are: 
@@ -379,7 +370,6 @@
 #' T1 to T6) over the course of a day for 10 individuals. The measurements are
 #' prostaglandin contents in their urine.
 #' 
-#' 
 #' @format A double matrix with 10 observations on the following 6 variables.
 #' \describe{ 
 #'   \item{T1}{First four-hour interval measurement of prostaglandin.} 
@@ -435,7 +425,6 @@
 #' Randall-MacIver [1905]. There are 30 skulls from each of five time periods,
 #' so that n = 150 all together.
 #' 
-#' 
 #' @format A double matrix with 150 observations on the following 5 variables.
 #' \describe{ 
 #'   \item{MaximalBreadth}{Maximum length in millimeters}
@@ -453,7 +442,6 @@
 #' 
 #' A data set that contains 23 peoples' ranking of 8 soft drinks: Coke, Pepsi,
 #' Sprite, 7-up, and their diet equivalents
-#' 
 #' 
 #' @format A double matrix with 23 observations on the following 8 variables.
 #' \describe{ 
@@ -483,7 +471,6 @@
 #' al. [1999], and are in the data matrix Spam. ( They are also in the R data
 #' frame spam from the ElemStatLearn package [Halvorsen, 2009], as well as at
 #' the UCI Machine Learning Repository [Frank and Asuncion, 2010].)
-#' 
 #' 
 #' @format A double matrix with 4601 observations on the following 58
 #' variables.
@@ -562,7 +549,6 @@
 #' participate in. The sports are baseball, football, basketball, tennis,
 #' cycling, swimming and jogging.
 #' 
-#' 
 #' @format A double matrix with 130 observations on the following 7 variables.
 #' \describe{ 
 #'   \item{Baseball}{Baseball's ranking out of seven sports.}
@@ -582,7 +568,6 @@
 #' 
 #' A data set containing several demographic variables on the 50 United States,
 #' plus D.C.
-#' 
 #' 
 #' @format A double matrix with 51 observations on the following 11 variables.
 #' \describe{ 

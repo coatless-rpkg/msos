@@ -18,7 +18,7 @@ search to find the second variables.}
 function to control the simulated annealing algorithm.}
 }
 \value{
-A list with the following components:
+A `list` with the following components:
 \describe{
   \item{vectors}{The \eqn{3 x 3} orthogonal matrix G that optimizes
                  the negentropy.}

@@ -13,7 +13,7 @@ pcbic.unite(pattern, index1)
 \item{index1}{Index \eqn{i} where \eqn{1 \le i < K}}
 }
 \value{
-A vector containing a pattern.
+A `vector` containing a pattern.
 }
 \description{
 Returns the pattern obtained by summing \eqn{q_i} and \eqn{q_{i+1}}.

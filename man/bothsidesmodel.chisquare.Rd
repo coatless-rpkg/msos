@@ -4,8 +4,13 @@
 \alias{bothsidesmodel.chisquare}
 \title{Test subsets of \eqn{\beta} are zero}
 \usage{
-bothsidesmodel.chisquare(x, y, z, pattern0, patternA = matrix(1, nrow =
-  ncol(x), ncol = ncol(z)))
+bothsidesmodel.chisquare(
+  x,
+  y,
+  z,
+  pattern0,
+  patternA = matrix(1, nrow = ncol(x), ncol = ncol(z))
+)
 }
 \arguments{
 \item{x}{An \eqn{N \times P}{N x P} design matrix.}
@@ -21,7 +26,8 @@ the null hypothesis.}
 specifying the alternative hypothesis.}
 }
 \value{
-A list with the following components:
+A `list` with the following components:
+
 \describe{
   \item{Theta}{The vector of estimated parameters of interest.}
   \item{Covtheta}{The estimated covariance matrix of the estimated parameter vector.}

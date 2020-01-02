@@ -1,3 +1,11 @@
+# msos 1.1.1 - Hotfix - "Old School Revitalized"
+
+## CHANGES
+
+- Cleaned up the DESCRIPTION file
+- Expanded the README file
+- Added links to the MSOS textbook
+
 # msos 1.1.0 - Hotfix - "Old School Triumph"
 
 ## CHANGES

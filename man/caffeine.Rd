@@ -5,10 +5,10 @@
 \alias{caffeine}
 \title{The Effects of Caffeine}
 \format{A double matrix with 28 observations on the following 3 variables.
-\describe{ 
+\describe{
 \item{Grade}{Grade of the Student, which is either 8th, 10th, or 12th}
 \item{Without}{Number of items remembered after drinking Coke without Caffine}
-\item{With}{Number of items remembered after drinking Coke with Caffine} 
+\item{With}{Number of items remembered after drinking Coke with Caffine}
 }}
 \source{
 Claire Henson, Claire Rogers, and Nadia Reynolds. Always Coca-Cola.

@@ -8,16 +8,16 @@ patterning.}
 bsm.fit(x, y, z, pattern)
 }
 \arguments{
-\item{x}{An \eqn{N \times (P + F)}{N x (P + F)} design matrix, where 
+\item{x}{An \eqn{N \times (P + F)}{N x (P + F)} design matrix, where
 \eqn{F} is the number of columns conditioned on. This is
 equivalent to the multiplication of \eqn{xyzb}.}
 
-\item{y}{The \eqn{N \times (Q - F)}{N x (Q - F)} matrix of 
+\item{y}{The \eqn{N \times (Q - F)}{N x (Q - F)} matrix of
 observations, where \eqn{F} is the number of columns
 conditioned on. This is equivalent to the multiplication
 of \eqn{Yz_a}.}
 
-\item{z}{A \eqn{(Q - F) \times L}{(Q - F) x L} design matrix, 
+\item{z}{A \eqn{(Q - F) \times L}{(Q - F) x L} design matrix,
 where \eqn{F} is the number of columns conditioned on.}
 
 \item{pattern}{An optional \eqn{N-F x F} matrix of 0's and 1's indicating
@@ -35,7 +35,7 @@ A list with the following components:
   \item{df}{A \eqn{p}-dimensional vector of the degrees of freedom for the
             \eqn{t}-statistics, where the \eqn{j}th component contains the
             degrees of freedom for the \eqn{j}th column of \eqn{\hat{\beta}}.}
-  \item{Sigmaz}{The \eqn{(Q - F) \times (Q - F)}{(Q - F) x (Q - F)} 
+  \item{Sigmaz}{The \eqn{(Q - F) \times (Q - F)}{(Q - F) x (Q - F)}
                 matrix \eqn{\hat{\Sigma}_z}.}
   \item{Cx}{The \eqn{Q \times Q}{Q x Q} residual sum of squares and
             crossproducts matrix.}

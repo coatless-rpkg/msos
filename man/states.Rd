@@ -5,21 +5,21 @@
 \alias{states}
 \title{States}
 \format{A double matrix with 51 observations on the following 11 variables.
-\describe{ 
+\describe{
   \item{Population}{In thousands}
   \item{PctCities}{The percentage of the population that lives in
-                   metripolitan areas.} 
+                   metripolitan areas.}
   \item{Doctors}{Number per 100,000 people.}
   \item{SchoolEnroll}{The percentage enrollment in primary and
-  secondary schools.} 
-  \item{TeacherSalary}{The average salary of primary and secondary school 
-                       teachers.} 
-  \item{CollegeEnroll}{The percentage full-time enrollment at college} 
-  \item{Crime}{Violent crimes per 100,000 people} 
-  \item{Prisoners}{Number of people in prison per 10,000 people.} 
-  \item{Poverty}{Percentage of people below the poverty line.} 
+  secondary schools.}
+  \item{TeacherSalary}{The average salary of primary and secondary school
+                       teachers.}
+  \item{CollegeEnroll}{The percentage full-time enrollment at college}
+  \item{Crime}{Violent crimes per 100,000 people}
+  \item{Prisoners}{Number of people in prison per 10,000 people.}
+  \item{Poverty}{Percentage of people below the poverty line.}
   \item{Employment}{Percentage of people employed}
-  \item{Income}{Median household income} 
+  \item{Income}{Median household income}
 }}
 \source{
 United States (1996) Statistical Abstract of the United States.

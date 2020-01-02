@@ -5,7 +5,7 @@
 \alias{softdrinks}
 \title{Soft Drinks}
 \format{A double matrix with 23 observations on the following 8 variables.
-\describe{ 
+\describe{
   \item{Coke}{Ranking given to Coke}
   \item{Pepsi}{Ranking given to Pepsi}
   \item{7up}{Ranking given to 7-up}
@@ -13,7 +13,7 @@
   \item{DietCoke}{Ranking given to Diet Coke}
   \item{DietPepsi}{Ranking given to Diet Pepsi}
   \item{Diet7up}{Ranking given to Diet 7-up}
-  \item{DietSprite}{Ranking given to Diet Sprite} 
+  \item{DietSprite}{Ranking given to Diet Sprite}
 }}
 \source{
 Data from one of Prof. John Marden's earlier classes

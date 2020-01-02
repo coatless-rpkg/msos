@@ -26,10 +26,10 @@ discrimination function \eqn{d_k} in (11.31) and (11.32).
 }
 \examples{
 # Iris example
-x.iris <- as.matrix(iris[,1:4])
+x.iris <- as.matrix(iris[, 1:4])
 # Gets group vector (1, ... , 1, 2, ... , 2, 3, ..., 3)
-y.iris <- rep(1:3,c(50,50,50)) 
-ld.iris <- lda(x.iris,y.iris)
+y.iris <- rep(1:3, c(50, 50, 50))
+ld.iris <- lda(x.iris, y.iris)
 }
 \seealso{
 \code{\link{sweep}}

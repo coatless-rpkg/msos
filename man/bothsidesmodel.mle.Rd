@@ -30,12 +30,12 @@ A list with the following components:
            \eqn{t}-statistics, where the \eqn{j}th component contains the
            degrees of freedom for the \eqn{j}th column of \eqn{\hat{\beta}}.}
  \item{Sigmaz}{The \eqn{Q \times Q}{Q x Q} matrix \eqn{\hat{\Sigma}_z}.}
- \item{Cx}{The \eqn{Q \times Q}{Q x Q} residual sum of squares and 
+ \item{Cx}{The \eqn{Q \times Q}{Q x Q} residual sum of squares and
            crossproducts matrix.}
  \item{ResidSS}{The dimension of the model, counting the nonzero
                 \eqn{\beta _{ij}}'s and components of \eqn{\Sigma _z}.}
  \item{Deviance}{Mallow's \eqn{C_p} Statistic.}
- \item{Dim}{The dimension of the model, counting the nonzero 
+ \item{Dim}{The dimension of the model, counting the nonzero
             \eqn{\beta _{ij}}'s and components of \eqn{\Sigma_z}}
  \item{AICc}{The corrected AIC criterion from (9.87) and (aic19)}
  \item{BIC}{The BIC criterion from (9.56).}

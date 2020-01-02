@@ -5,12 +5,12 @@
 \alias{skulls}
 \title{Egyptian Skulls}
 \format{A double matrix with 150 observations on the following 5 variables.
-\describe{ 
+\describe{
   \item{MaximalBreadth}{Maximum length in millimeters}
   \item{BasibregmaticHeight}{Basibregmatic Height in millimeters}
   \item{BasialveolarLength}{Basialveolar Length in millimeters}
   \item{NasalHeight}{Nasal Height in millimeters}
-  \item{TimePeriod}{Time groupings} 
+  \item{TimePeriod}{Time groupings}
 }}
 \source{
 A. Thomson and R. Randall-MacIver. Ancient Races of the Thebaid.

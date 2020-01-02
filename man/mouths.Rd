@@ -5,12 +5,12 @@
 \alias{mouths}
 \title{Mouth Sizes}
 \format{A data frame with 27 observations on the following 5 variables.
-\describe{ 
+\describe{
   \item{Age8}{Measurement on child's month at age eight.}
   \item{Age10}{Measurement on child's month at age ten.}
   \item{Age12}{Measurement on child's month at age twelve.}
   \item{Age14}{Measurement on child's month at age fourteen.}
-  \item{Sex}{Sex Coding: Girl=1 and Boys=0} 
+  \item{Sex}{Sex Coding: Girl=1 and Boys=0}
 }}
 \source{
 Richard F. Potthoff and S. N. Roy. A generalized multivariate

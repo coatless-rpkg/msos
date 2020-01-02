@@ -4,13 +4,13 @@
 \name{crabs}
 \alias{crabs}
 \title{Morphological Measurements on Leptograpsus Crabs}
-\format{This data frame contains the following columns: 
+\format{This data frame contains the following columns:
 \describe{
   \item{sp}{\code{species} - \code{"B"} or \code{"O"} for blue or orange.}
-  \item{sex}{\code{"M"} (Male) or \code{"F"} (Female).} 
+  \item{sex}{\code{"M"} (Male) or \code{"F"} (Female).}
   \item{index}{index \code{1:50} within each of the four groups.}
-  \item{FL}{frontal lobe size (mm).} 
-  \item{RW}{rear width (mm).} 
+  \item{FL}{frontal lobe size (mm).}
+  \item{RW}{rear width (mm).}
   \item{CL}{carapace length (mm).}
   \item{CW}{carapace width (mm).}
   \item{BD}{body depth (mm).}

@@ -5,7 +5,7 @@
 \alias{sportsranks}
 \title{Sports ranking}
 \format{A double matrix with 130 observations on the following 7 variables.
-\describe{ 
+\describe{
   \item{Baseball}{Baseball's ranking out of seven sports.}
   \item{Football}{Football's ranking out of seven sports.}
   \item{Basketball}{Basketball's ranking out of seven sports.}

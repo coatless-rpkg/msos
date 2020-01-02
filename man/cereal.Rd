@@ -5,17 +5,17 @@
 \alias{cereal}
 \title{Cereal}
 \format{A double matrix with 8 observations on the following 11 variables.
-\describe{ 
+\describe{
   \item{Return}{A cereal one would come back to}
-  \item{Tasty}{Tastes good} 
-  \item{Popular}{Popular with the entire family} 
+  \item{Tasty}{Tastes good}
+  \item{Popular}{Popular with the entire family}
   \item{Nourishing}{Cereal is fulfilling}
   \item{NaturalFlavor}{Cereal lacks flavor additives}
   \item{Affordable}{Cereal is priced well for the content}
-  \item{GoodValue}{Quantity for Price} 
-  \item{Crispy}{Stays crispy in milk} 
+  \item{GoodValue}{Quantity for Price}
+  \item{Crispy}{Stays crispy in milk}
   \item{Fit}{Keeps one fit}
-  \item{Fun}{Fun for children} 
+  \item{Fun}{Fun for children}
 }}
 \source{
 T. K. Chakrapani and A. S. C. Ehrenberg. An alternative to factor

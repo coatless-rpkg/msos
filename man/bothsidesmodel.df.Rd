@@ -23,9 +23,11 @@ Determines the denominators needed to calculate an unbiased estimator of
 \eqn{\Sigma_R}.
 }
 \examples{
-#Find the DF for a likelihood ratio test statistic.
-x <- cbind(1, c(-2, -1, 0, 1, 2), c(2, -1, -2, -1, 2),
-              c(-1, 2, 0, -2, 1), c(1, -4, 6, -4, 1))
+# Find the DF for a likelihood ratio test statistic.
+x <- cbind(
+  1, c(-2, -1, 0, 1, 2), c(2, -1, -2, -1, 2),
+  c(-1, 2, 0, -2, 1), c(1, -4, 6, -4, 1)
+)
 # or x <- cbind(1, poly(1:5, 4))
 data(skulls)
 x <- kronecker(x, rep(1, 30))

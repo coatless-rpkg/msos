@@ -20,7 +20,6 @@ summing over.
 
 # Identity Matrix of size 4, gives trace of 4.
 tr(diag(4))
-
 }
 \seealso{
 \code{\link{logdet}}, \code{\link{fillout}}

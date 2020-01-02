@@ -38,13 +38,13 @@ A list with the following components:
 }
 }
 \description{
-Performs tests of the null hypothesis H0 : \eqn{\beta^*} = 0, where 
+Performs tests of the null hypothesis H0 : \eqn{\beta^*} = 0, where
 \eqn{\beta^*} is a block submatrix of \eqn{\beta} as in Section 7.2.
 }
 \examples{
 # Finds the Hotelling values for example 7.3.1
 data(mouths)
-x <- cbind(1, mouths[,5])
+x <- cbind(1, mouths[, 5])
 y <- mouths[, 1:4]
 z <- cbind(c(1, 1, 1, 1), c(-3, -1, 1, 3), c(1, -1, -1, 1), c(-1, 3, -3, 1))
 bothsidesmodel.hotelling(x, y, z, 1:2, 3:4)

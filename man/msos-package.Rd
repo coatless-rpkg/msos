@@ -9,8 +9,8 @@
 Multivariate Analysis methods and data sets used
     in John Marden's book Multivariate Statistics: Old School (2015) <ISBN:978-1456538835>.
     This also serves as a companion package for the 
-    STAT 571: Multivariate Analysis course at the University of Illinois
-    at Urbana-Champaign (UIUC).
+    STAT 571: Multivariate Analysis course offered by the Department of Statistics
+    at the University of Illinois at Urbana-Champaign ('UIUC').
 }
 \seealso{
 Useful links:

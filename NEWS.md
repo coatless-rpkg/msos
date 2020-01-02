@@ -2,6 +2,7 @@
 
 ## CHANGES
 
+- Enforced a consistent code style.
 - Cleaned up the DESCRIPTION file
 - Expanded the README file
 - Added links to the MSOS textbook

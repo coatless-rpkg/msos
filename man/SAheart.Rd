@@ -7,16 +7,16 @@
 \format{A data frame with 462 observations on the following 10 variables.
 \describe{
  \item{sbp}{systolic blood pressure}
- \item{tobacco}{cumulative tobacco (kg)} 
+ \item{tobacco}{cumulative tobacco (kg)}
  \item{ldl}{low density lipoprotein cholesterol}
- \item{adiposity}{a numeric vector} 
+ \item{adiposity}{a numeric vector}
  \item{famhist}{family history of heart disease, a factor with levels
                 \code{"Absent"} and \code{"Present"}}
- \item{typea}{type-A behavior} 
+ \item{typea}{type-A behavior}
  \item{obesity}{a numeric vector}
- \item{alcohol}{current alcohol consumption} 
+ \item{alcohol}{current alcohol consumption}
  \item{age}{age at onset}
- \item{chd}{response, coronary heart disease} 
+ \item{chd}{response, coronary heart disease}
 }}
 \source{
 Rousseauw, J., du Plessis, J., Benade, A., Jordaan, P., Kotze, J.

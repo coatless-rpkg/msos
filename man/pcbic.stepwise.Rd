@@ -31,10 +31,10 @@ a set of observed eigenvalues with good BIC value.
 # Build cars1
 require("mclust")
 mcars <- Mclust(cars)
-cars1 <- cars[mcars$classification==1,]
+cars1 <- cars[mcars$classification == 1, ]
 xcars <- scale(cars1)
 eg <- eigen(var(xcars))
-pcbic.stepwise(eg$values,95)
+pcbic.stepwise(eg$values, 95)
 }
 \seealso{
 \code{\link{pcbic}}, \code{\link{pcbic.unite}},

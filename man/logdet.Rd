@@ -18,7 +18,7 @@ sometimes referred to as ln().
 }
 \examples{
 # Identity Matrix of size 2
-logdet(diag(c(2,2)))
+logdet(diag(c(2, 2)))
 }
 \seealso{
 \code{\link{tr}} and \code{\link{fillout}}

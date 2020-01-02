@@ -24,18 +24,17 @@ and outputs the matrix \eqn{B \otimes A}.
 \examples{
 
 # Create matrices
-( A <- diag(1,3) )
-( B <- matrix(1:6, ncol = 2) )
+(A <- diag(1, 3))
+(B <- matrix(1:6, ncol = 2))
 
 # Perform kronecker
-( kron <- kronecker(A, B) )
+(kron <- kronecker(A, B))
 
 # Perform reverse kronecker product
-( reverse.kronecker(kron, 3, 3))
+(reverse.kronecker(kron, 3, 3))
 
 # Perform kronecker again
-( kron2 <- kronecker(B, A) )
-
+(kron2 <- kronecker(B, A))
 }
 \seealso{
 \code{\link{kronecker}}

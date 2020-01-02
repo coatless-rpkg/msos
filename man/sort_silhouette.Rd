@@ -29,7 +29,6 @@ kms <- kmeans(sportsranks, centers = 5, nstart = 10)
 # Silhouettes
 sil <- silhouette.km(sportsranks, kms$centers)
 ssil <- sort_silhouette(sil, kms$cluster)
-
 }
 \seealso{
 \code{\link{silhouette.km}}

@@ -5,15 +5,15 @@
 \alias{histamine}
 \title{Histamine in Dogs}
 \format{A double matrix with 16 observations on the following 4 variables.
-\describe{ 
+\describe{
   \item{Before}{Histamine levels (in micrograms per milliliter of blood)
                 before the inoculation.}
   \item{After1}{Histamine levels (in micrograms per milliliter of blood)
-                one minute after inoculation.} 
-  \item{After3}{Histamine levels (in micrograms per milliliter of blood) 
+                one minute after inoculation.}
+  \item{After3}{Histamine levels (in micrograms per milliliter of blood)
                 three minute after inoculation.}
   \item{After5}{Histamine levels (in micrograms per milliliter of blood)
-                five minutes after inoculation.} 
+                five minutes after inoculation.}
 }}
 \source{
 Kenny J.Morris and Robert Zeppa. Histamine-induced hypotension due

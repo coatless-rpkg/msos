@@ -5,22 +5,22 @@
 \alias{cars}
 \title{Automobile Data from Consumer Reports}
 \format{A double matrix with 111 observations on the following 11 variables.
-\describe{ 
- \item{Length}{Overall length, in inches, as supplied by manufacturer.} 
+\describe{
+ \item{Length}{Overall length, in inches, as supplied by manufacturer.}
  \item{Wheelbase}{Length of wheelbase, in inches, as supplied by
-                  manufacturer.} 
- \item{Width}{Width of car, in inches, as supplied by manufacturer.} 
- \item{Height}{Height of car, in inches, as supplied by manufacturer} 
+                  manufacturer.}
+ \item{Width}{Width of car, in inches, as supplied by manufacturer.}
+ \item{Height}{Height of car, in inches, as supplied by manufacturer}
  \item{FrontHd}{Distance between the car's head-liner and the head of
                 a 5 ft. 9 in. front seat passenger, in inches, as measured
-                by CU.} 
+                by CU.}
  \item{RearHd}{Distance between the car's head-liner and the head of a
-               5 ft 9 in. rear seat passenger, in inches, as measured by CU} 
+               5 ft 9 in. rear seat passenger, in inches, as measured by CU}
  \item{FrtLegRoom}{Maximum front leg room, in inches, as measured by CU.}
  \item{RearSeating}{Rear fore-and-aft seating room, in inches, as measured
-                    by CU.} 
- \item{FrtShld}{Front shoulder room, in inches, as measured by CU.} 
- \item{RearShld}{Rear shoulder room, in inches, as measured by CU.}  
+                    by CU.}
+ \item{FrtShld}{Front shoulder room, in inches, as measured by CU.}
+ \item{RearShld}{Rear shoulder room, in inches, as measured by CU.}
  \item{Luggage}{Luggage Area in Car.}
 }}
 \source{

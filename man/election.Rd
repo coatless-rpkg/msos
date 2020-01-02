@@ -5,7 +5,7 @@
 \alias{election}
 \title{Presidential Election Data}
 \format{A double matrix with 51 observations on the following 3 variables.
-\describe{ 
+\describe{
 \item{2000}{Results for 51 States in Year 2000}
 \item{2004}{Results for 51 States in Year 2004}
 \item{2008}{Results for 51 States in Year 2008}

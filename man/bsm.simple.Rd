@@ -12,7 +12,7 @@ is the number of columns conditioned on. This is equivalent to
 the multiplication of \eqn{xyzb}.}
 
 \item{y}{The \eqn{N \times (Q - F)}{N x (Q - F)} matrix of observations,
-where \eqn{F} is the number of columns conditioned on. This is 
+where \eqn{F} is the number of columns conditioned on. This is
 equivalent to the multiplication of \eqn{Yz_a}.}
 
 \item{z}{A \eqn{(Q - F) \times L}{Q-F x L} design matrix, where \eqn{F} is
@@ -47,7 +47,7 @@ The technique used to calculate the estimates is described in section 9.3.3.
 data(mouths)
 x <- cbind(1, mouths[, 5])
 y <- mouths[, 1:4]
-z <- cbind(1, c(-3, -1, 1, 3), c(-1, 1, 1, -1),c(-1, 3, -3, 1))
+z <- cbind(1, c(-3, -1, 1, 3), c(-1, 1, 1, -1), c(-1, 3, -3, 1))
 yz <- y \%*\% solve(t(z))
 yza <- yz[, 1:2]
 xyzb <- cbind(x, yz[, 3:4])

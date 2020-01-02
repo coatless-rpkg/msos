@@ -5,11 +5,11 @@
 \alias{painters}
 \title{The Painter's Data of de Piles}
 \format{The row names of the data frame are the painters. The components
-are: 
-\describe{ 
+are:
+\describe{
   \item{Composition}{ Composition score.}
-  \item{Drawing}{ Drawing score.} 
-  \item{Colour}{ Colour score.} 
+  \item{Drawing}{ Drawing score.}
+  \item{Colour}{ Colour score.}
   \item{Expression}{ Expression score.}
   \item{School}{ The school to which a painter belongs, as indicated
                  by a factor level code as follows:
@@ -18,7 +18,7 @@ are:
                  \code{"C"}: Seicento;
                  \code{"D"}: Venetian;
                  \code{"E"}: Lombard;
-                 \code{"F"}: Sixteenth Century; 
+                 \code{"F"}: Sixteenth Century;
                  \code{"G"}: Seventeenth Century;
                  \code{"H"}: French.  }
 }}

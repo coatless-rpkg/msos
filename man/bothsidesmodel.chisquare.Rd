@@ -22,7 +22,7 @@ bothsidesmodel.chisquare(
 \item{pattern0}{An \eqn{N \times P}{N x P} matrix of 0's and 1's specifying
 the null hypothesis.}
 
-\item{patternA}{An optional \eqn{N \times P}{N x P} matrix of 0's and 1's 
+\item{patternA}{An optional \eqn{N \times P}{N x P} matrix of 0's and 1's
 specifying the alternative hypothesis.}
 }
 \value{
@@ -44,7 +44,7 @@ in Section 7.1. The null and alternative are specified by pattern matrices
 alternative will be taken to be the unrestricted model.
 }
 \examples{
-#TBA - Submit a PR!
+# TBA - Submit a PR!
 }
 \seealso{
 \code{\link{bothsidesmodel}}, \code{\link{bothsidesmodel.df}},

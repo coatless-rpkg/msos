@@ -6,64 +6,64 @@
 \title{Spam}
 \format{A double matrix with 4601 observations on the following 58
 variables.
-\describe{ 
-  \item{WFmake}{Percentage of words in the e-mail that match make.} 
-  \item{WFaddress}{Percentage of words in the e-mail that match address.} 
+\describe{
+  \item{WFmake}{Percentage of words in the e-mail that match make.}
+  \item{WFaddress}{Percentage of words in the e-mail that match address.}
   \item{WFall}{Percentage of words in the e-mail that match all.}
-  \item{WF3d}{Percentage of words in the e-mail that match 3d.} 
-  \item{WFour}{Percentage of words in the e-mail that match our.} 
-  \item{WFover}{Percentage of words in the e-mail that match over.} 
-  \item{WFremove}{Percentage of words in the e-mail that match remove.} 
-  \item{WFinternet}{Percentage of words in the e-mail that match internet.} 
-  \item{WForder}{Percentage of words in the e-mail that match order.} 
-  \item{WFmail}{Percentage of words in the e-mail that match mail.} 
-  \item{WFreceive}{Percentage of words in the e-mail that match receive.} 
-  \item{WFwill}{Percentage of words in the e-mail that match will.} 
-  \item{WFpeople}{Percentage of words in the e-mail that match people.} 
+  \item{WF3d}{Percentage of words in the e-mail that match 3d.}
+  \item{WFour}{Percentage of words in the e-mail that match our.}
+  \item{WFover}{Percentage of words in the e-mail that match over.}
+  \item{WFremove}{Percentage of words in the e-mail that match remove.}
+  \item{WFinternet}{Percentage of words in the e-mail that match internet.}
+  \item{WForder}{Percentage of words in the e-mail that match order.}
+  \item{WFmail}{Percentage of words in the e-mail that match mail.}
+  \item{WFreceive}{Percentage of words in the e-mail that match receive.}
+  \item{WFwill}{Percentage of words in the e-mail that match will.}
+  \item{WFpeople}{Percentage of words in the e-mail that match people.}
   \item{WFreport}{Percentage of words in the e-mail that match report.}
   \item{WFaddresses}{Percentage of words in the e-mail that match
-                     addresses.} 
-  \item{WFfree}{Percentage of words in the e-mail that match free.} 
-  \item{WFbusiness}{Percentage of words in the e-mail that match business.} 
-  \item{WFemail}{Percentage of words in the e-mail that match email.} 
-  \item{WFyou}{Percentage of words in the e-mail that match you.} 
-  \item{WFcredit}{Percentage of words in the e-mail that match credit.} 
-  \item{WFyour}{Percentage of words in the e-mail that match your.} 
-  \item{WFfont}{Percentage of words in the e-mail that match font.} 
-  \item{WF000}{Percentage of words in the e-mail that match 000.} 
-  \item{WFmoney}{Percentage of words in the e-mail that match money.} 
-  \item{WFhp}{Percentage of words in the e-mail that match hp.} 
-  \item{WFgeorge}{Percentage of words in the e-mail that match george.} 
+                     addresses.}
+  \item{WFfree}{Percentage of words in the e-mail that match free.}
+  \item{WFbusiness}{Percentage of words in the e-mail that match business.}
+  \item{WFemail}{Percentage of words in the e-mail that match email.}
+  \item{WFyou}{Percentage of words in the e-mail that match you.}
+  \item{WFcredit}{Percentage of words in the e-mail that match credit.}
+  \item{WFyour}{Percentage of words in the e-mail that match your.}
+  \item{WFfont}{Percentage of words in the e-mail that match font.}
+  \item{WF000}{Percentage of words in the e-mail that match 000.}
+  \item{WFmoney}{Percentage of words in the e-mail that match money.}
+  \item{WFhp}{Percentage of words in the e-mail that match hp.}
+  \item{WFgeorge}{Percentage of words in the e-mail that match george.}
   \item{WF650}{Percentage of words in the e-mail that match 650.}
   \item{WFlab}{Percentage of words in the e-mail that match lab.}
-  \item{WFlabs}{Percentage of words in the e-mail that match labs.} 
-  \item{WFtelnet}{Percentage of words in the e-mail that match telnet.} 
-  \item{WF857}{Percentage of words in the e-mail that match 857.} 
-  \item{WFdata}{Percentage of words in the e-mail that match data.} 
-  \item{WF415}{Percentage of words in the e-mail that match 415.} 
-  \item{WF85}{Percentage of words in the e-mail that match 85.} 
-  \item{WFtechnology}{Percentage of words in the e-mail that match technology.} 
-  \item{WF1999}{Percentage of words in the e-mail that match 1999.} 
-  \item{WFparts}{Percentage of words in the e-mail that match parts.} 
-  \item{WFpm}{Percentage of words in the e-mail that match pm.} 
-  \item{WFdirect}{Percentage of words in the e-mail that match direct.} 
-  \item{WFcs}{Percentage of words in the e-mail that match cs.} 
-  \item{WFmeeting}{Percentage of words in the e-mail that match meeting.} 
+  \item{WFlabs}{Percentage of words in the e-mail that match labs.}
+  \item{WFtelnet}{Percentage of words in the e-mail that match telnet.}
+  \item{WF857}{Percentage of words in the e-mail that match 857.}
+  \item{WFdata}{Percentage of words in the e-mail that match data.}
+  \item{WF415}{Percentage of words in the e-mail that match 415.}
+  \item{WF85}{Percentage of words in the e-mail that match 85.}
+  \item{WFtechnology}{Percentage of words in the e-mail that match technology.}
+  \item{WF1999}{Percentage of words in the e-mail that match 1999.}
+  \item{WFparts}{Percentage of words in the e-mail that match parts.}
+  \item{WFpm}{Percentage of words in the e-mail that match pm.}
+  \item{WFdirect}{Percentage of words in the e-mail that match direct.}
+  \item{WFcs}{Percentage of words in the e-mail that match cs.}
+  \item{WFmeeting}{Percentage of words in the e-mail that match meeting.}
   \item{WForiginal}{Percentage of words in the e-mail that match original.}
   \item{WFproject}{Percentage of words in the e-mail that match
-                   project.} 
-  \item{WFre}{Percentage of words in the e-mail that match re.} 
+                   project.}
+  \item{WFre}{Percentage of words in the e-mail that match re.}
   \item{WFedu}{Percentage of words in the e-mail that match edu.}
   \item{WFtable}{Percentage of words in the e-mail that match table.}
-  \item{WFconference}{Percentage of words in the e-mail that match conference.} 
+  \item{WFconference}{Percentage of words in the e-mail that match conference.}
   \item{CFsemicolon}{Percentage of characters in the e-mail that match
-                     SEMICOLON.} 
-  \item{CFparen}{Percentage of characters in the e-mail that match PARENTHESES.} 
+                     SEMICOLON.}
+  \item{CFparen}{Percentage of characters in the e-mail that match PARENTHESES.}
   \item{CFbracket}{Percentage of characters in the e-mail that match BRACKET.}
-  \item{CFexclam}{Percentage of characters in the e-mail that match EXCLAMATION.} 
-  \item{CFdollar}{Percentage of characters in the e-mail that match DOLLAR.} 
-  \item{CFpound}{Percentage of characters in the e-mail that match POUND.} 
-  \item{CRLaverage}{Average length of uninterrupted sequences of capital letters.} 
+  \item{CFexclam}{Percentage of characters in the e-mail that match EXCLAMATION.}
+  \item{CFdollar}{Percentage of characters in the e-mail that match DOLLAR.}
+  \item{CFpound}{Percentage of characters in the e-mail that match POUND.}
+  \item{CRLaverage}{Average length of uninterrupted sequences of capital letters.}
   \item{CRLlongest}{Length of longest uninterrupted sequence of capital letters. }
   \item{CRLtotal}{Total number of capital letters in the e-mail}
   \item{spam}{Denotes whether the e-mail was considered spam (1) or not (0),

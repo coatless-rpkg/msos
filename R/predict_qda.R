@@ -4,14 +4,17 @@
 #' (Section A.3.2) and a \eqn{P}-vector \eqn{X}, and calculates the predicted
 #' group for this \eqn{X}.
 #' 
-#' 
-#' @param qd The output from \code{\link{qda}}.
+#' @param qd   The output from \code{\link{qda}}.
 #' @param newx A \eqn{P}-vector \eqn{X} whose components match the variables
-#' used in the \code{\link{qda}} function.
-#' @return A \eqn{K}-vector of the discriminant values \eqn{d_k^Q(X)} in
+#'             used in the \code{\link{qda}} function.
+#' 
+#' @return 
+#' A \eqn{K}-vector of the discriminant values \eqn{d_k^Q(X)} in
 #' (11.48) for the given \eqn{X}.
-#' @export
+#' 
 #' @seealso \code{\link{qda}}, \code{\link{imax}}
+#' 
+#' @export
 #' @examples
 #' 
 #' # Load Iris Data

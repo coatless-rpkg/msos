@@ -3,12 +3,15 @@
 #' Sorts the silhouettes, first by group, then by value, preparatory to
 #' plotting.
 #' 
-#' 
 #' @param sil     The \eqn{n}-vector of silhouette values.
 #' @param cluster The \eqn{n}-vector of cluster indices.
-#' @return The \eqn{n}-vector of sorted silhouettes.
-#' @export
+#' 
+#' @return 
+#' The \eqn{n}-vector of sorted silhouettes.
+#'
 #' @seealso \code{\link{silhouette.km}}
+#'
+#' @export
 #' @examples
 #' 
 #' # Uses sports data.

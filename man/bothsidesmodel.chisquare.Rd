@@ -26,7 +26,8 @@ the null hypothesis.}
 specifying the alternative hypothesis.}
 }
 \value{
-A list with the following components:
+A `list` with the following components:
+
 \describe{
   \item{Theta}{The vector of estimated parameters of interest.}
   \item{Covtheta}{The estimated covariance matrix of the estimated parameter vector.}

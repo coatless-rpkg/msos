@@ -2,10 +2,13 @@
 #' 
 #' Uses the stepwise procedure described in Section 13.1.4 to find a pattern for
 #' a set of observed eigenvalues with good BIC value.
+#' 
 #' @param eigenvals The \eqn{Q}-vector of eigenvalues of the covariance matrix,
 #'                  in order from largest to smallest.
 #' @param n         The degrees of freedom in the covariance matrix.
-#' @return A list with the following components:
+#' 
+#' @return 
+#' A list with the following components:
 #' \describe{
 #'   \item{Patterns}{A list of patterns, one for each value of length \eqn{K}.}
 #'   \item{BICs}{A vector of the BIC's for the above patterns.}
@@ -14,9 +17,11 @@
 #'   \item{lambdaHat}{A \eqn{Q}-vector containing the MLE's for the eigenvalues
 #'                    for the pattern with the best BIC.}
 #' }
-#' @export
+#' 
 #' @seealso \code{\link{pcbic}}, \code{\link{pcbic.unite}},
 #'          and \code{\link{pcbic.subpatterns}}.
+#'
+#' @export
 #' @examples
 #' # Build cars1
 #' require("mclust")

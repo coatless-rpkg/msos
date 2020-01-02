@@ -2,10 +2,15 @@
 #' 
 #' The function fillout takes a \eqn{Q \times (Q - L)}{Q x (Q-L)} matrix \eqn{Z}
 #' and fills it out so that it is a square matrix \eqn{Q \times Q}{Q x Q}.
+#' 
 #' @param z A \eqn{Q \times (Q-L)}{Q x (Q-L)} matrix
-#' @return A square matrix \eqn{Q \times Q}{Q x Q}
-#' @export
+#'
+#' @return
+#' A square matrix \eqn{Q \times Q}{Q x Q}
+#' 
 #' @seealso \code{\link{tr}}, \code{\link{logdet}}
+#' 
+#' @export
 #' @examples
 #' # Create a 3 x 2 matrix
 #' a <- cbind(c(1, 2, 3), c(4, 5, 6))

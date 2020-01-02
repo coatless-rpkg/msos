@@ -6,7 +6,6 @@
 #' respectively. If the \eqn{P_A} is omitted, then the alternative will be
 #' taken to be the unrestricted model.
 #' 
-#' 
 #' @param x         An \eqn{N \times P}{N x P} design matrix.
 #' @param y         The \eqn{N \times Q}{N x Q} matrix of observations.
 #' @param z         A \eqn{Q \times L}{Q x L} design matrix.
@@ -14,15 +13,19 @@
 #                   the null hypothesis.
 #' @param patternA  An optional \eqn{N \times P}{N x P} matrix of 0's and 1's
 #'                  specifying the alternative hypothesis.
-#' @return A list with the following components:
+#'
+#' @return 
+#' A list with the following components:
 #' \describe{
 #'   \item{chisq}{The likelihood ratio statistic in (9.44).}
 #'   \item{df}{The degrees of freedom in the test.}
 #'   \item{pvalue}{The \eqn{p}-value for the test.}
 #' }
+#'
 #' @seealso \code{\link{bothsidesmodel.chisquare}}, \code{\link{bothsidesmodel.df}},
 #'          \code{\link{bothsidesmodel.hotelling}}, \code{\link{bothsidesmodel}},
 #'          and \code{\link{bothsidesmodel.mle}}.
+#'
 #' @export
 #' @examples
 #' 

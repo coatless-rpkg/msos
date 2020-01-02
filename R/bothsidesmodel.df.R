@@ -2,16 +2,20 @@
 #' 
 #' Determines the denominators needed to calculate an unbiased estimator of
 #' \eqn{\Sigma_R}.
+#' 
 #' @param xx       Result of \eqn{(X^T * X)}, where T denotes tranpose.
 #' @param n        Number of rows in observation matrix given
 #' @param pattern  An \eqn{N \times P}{N x P} matrix of 0's and 1's indicating
 #'                 which elements of \eqn{\beta} are allowed to be nonzero.
-#' @return A \code{numeric} matrix of size \eqn{N \times N}{N x N} containing
+#' @return 
+#' A \code{numeric} matrix of size \eqn{N \times N}{N x N} containing
 #' the degrees of freedom for the test.
-#' @export
+#' 
 #' @seealso \code{\link{bothsidesmodel}}, \code{\link{bothsidesmodel.chisquare}},
 #'          \code{\link{bothsidesmodel.hotelling}}, \code{\link{bothsidesmodel.lrt}},
 #'          and \code{\link{bothsidesmodel.mle}}.
+#'
+#' @export
 #' @examples
 #' #Find the DF for a likelihood ratio test statistic.
 #' x <- cbind(1, c(-2, -1, 0, 1, 2), c(2, -1, -2, -1, 2),

@@ -10,9 +10,9 @@
 #'          equivalent to the multiplication of \eqn{Yz_a}.
 #' @param z A \eqn{(Q - F) \times L}{Q-F x L} design matrix, where \eqn{F} is
 #'          the number of columns conditioned on.
-#' @details
-#'   The technique used to calculate the estimates is described in section 9.3.3.
-#' @return A list with the following components:
+#'
+#' @return 
+#' A list with the following components:
 #' \describe{
 #'   \item{Beta}{The least-squares estimate of \eqn{\beta}.}
 #'   \item{SE}{The \eqn{(P + F) \times L}{(P + F) x L} matrix with the \eqn{ij}th
@@ -28,8 +28,13 @@
 #'   \item{Cx}{The \eqn{Q \times Q}{Q x Q} residual sum of squares and
 #'             crossproducts matrix.}
 #' }
-#' @export
+#' 
 #' @seealso \code{\link{bothsidesmodel.mle}} and \code{\link{bsm.fit}}
+#' 
+#' @details
+#' The technique used to calculate the estimates is described in section 9.3.3.
+#' 
+#' @export
 #' @examples
 #' # Taken from section 9.3.3 to show equivalence to methods.
 #' data(mouths)

@@ -16,7 +16,7 @@ The value of the estimated negentropy.
 }
 \description{
 Calculates the histogram-based estimate (A.2) of the negentropy,
-\deqn{Negent(g) = (1/2)*(1 + log(2\pi \sigma ^2)) - Entropy(g), }
+\deqn{Negent(g) = (1/2)*(1 + log(2\pi \sigma ^2)) - Entropy(g),}
 for a vector of observations.
 }
 \examples{

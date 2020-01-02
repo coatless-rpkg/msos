@@ -4,11 +4,12 @@
 #' discrimination in (11.48). Use the output from this function in
 #' \code{\link{predict_qda}} (Section A.3.2) to find the predicted groups.
 #' 
-#' 
 #' @param x The \eqn{N \times P}{N x P} data matrix.
 #' @param y The \eqn{N}-vector of group identities, assumed to be given by the
-#' numbers 1,...,\eqn{K} for \eqn{K} groups.
-#' @return A list with the following components: 
+#'          numbers 1,...,\eqn{K} for \eqn{K} groups.
+#'
+#' @return 
+#' A `list` with the following components: 
 #' \describe{
 #'   \item{Mean}{A \eqn{P \times K}{P x K} matrix, where column \eqn{K} contains
 #'               the coefficents \eqn{a_k} for (11.31). The final column is all
@@ -18,8 +19,10 @@
 #'                \eqn{k}, \eqn{\hat{\Sigma_k}}.}
 #'   \item{c}{The \eqn{K}-vector of constants \eqn{c_k} for (11.48).}
 #' }
-#' @export
+#'
 #' @seealso \code{\link{predict_qda}} and \code{\link{lda}}
+#'
+#' @export
 #' @examples
 #' 
 #' # Load Iris Data

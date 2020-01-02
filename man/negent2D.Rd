@@ -9,7 +9,8 @@ negent2D(y, m = 100)
 \arguments{
 \item{y}{The \eqn{n \times 2}{n x 2} data matrix.}
 
-\item{m}{The number of angles (between \eqn{0} and \eqn{\pi}) over which to search.}
+\item{m}{The number of angles (between \eqn{0} and \eqn{\pi}) over which 
+to search.}
 }
 \value{
 A list with the following components:

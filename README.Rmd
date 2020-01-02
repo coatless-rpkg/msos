@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 ```
 
 
-## `msos`
+## msos
 
 <!-- badges: start -->
 [![Travis build status](https://travis-ci.org/coatless/msos.svg?branch=master)](https://travis-ci.org/coatless/msos)

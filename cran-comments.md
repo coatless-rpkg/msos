@@ -1,8 +1,7 @@
 ## Test environments
-
-* local OS X install, R 3.6.2
-* ubuntu 14.04 (on travis-ci), R 3.6.2
-* win-builder (devel and release)
+- local R installation, R 4.0.3
+- ubuntu 20.04 (on github actions), R 4.0.3
+- win-builder (devel)
 
 ## R CMD check results
 
@@ -10,4 +9,4 @@
 
 ## Reverse dependencies
 
-There are no reverse dependencies.
+There are no reverse dependencies

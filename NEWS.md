@@ -4,6 +4,7 @@
 
 - Fixed `lda()`'s computation for unbalanced data sets. (thanks [Trevor Park](https://stat.illinois.edu/directory/profile/thp2), [#5](https://github.com/coatless/msos/pull/5))
 - Switch CI testing to GitHub Actions ([#6](https://github.com/coatless/msos/pull/6))
+- Add `pkgdown` website ([#7](https://github.com/coatless/msos/pull/7))
 
 # msos 1.1.1 - Hotfix - "Old School Revitalized"
 

@@ -1,0 +1,88 @@
+url: https://coatless.github.io/msos
+
+home:
+  strip_header: true
+
+development:
+  mode: auto
+
+authors:
+  John Marden:
+    href: https://istics.net/
+  James Joseph Balamuta:
+    href: https://thecoatlessprofessor.com
+
+reference:
+- title: Both Sides Model (BSM)
+  desc: > 
+    Collection of functions for computing the both sides model
+  contents:
+  - matches("bothsidesmodel")
+- title: Bayesian information criterion (BIC) 
+  desc: > 
+    Various functions that compute or use Bayesian Information Criterion (BIC)
+    to inform model selection decisions.
+  contents:
+  - pcbic
+  - pcbic.stepwise
+  - pcbic.unite
+  - pcbic.subpatterns.
+- title: Discrimination
+  desc: >
+    Approaches to separate known groups in a multivariate sample.
+  contents:
+  - qda
+  - lda
+  - predict_qda
+- title: Negentropy
+  desc: >
+     Computing measures of distance to normality.
+  contents:
+  - negent
+  - negent2D
+  - negent3D
+- title: K-Means Silhouette
+  desc: >
+     Computing and sorting silhouettes for K-Mean clustering.
+  contents:
+  - silhouette.km
+  - sort_silhouette
+- title: Matrix Operations
+  desc: >
+    Functions that perform various matrix operations lacking a base R implementation.
+  contents:
+  - tr
+  - logdet 
+  - imax
+  - fillout
+  - reverse.kronecker
+- title: Data Sets
+  desc: >
+    Various multivariate data sets.
+  contents:
+  - SAheart
+  - Spam
+  - births
+  - caffeine
+  - cars 
+  - cereal
+  - crabs
+  - decathlon08
+  - decathlon12
+  - election
+  - exams
+  - grades
+  - histamine 
+  - leprosy
+  - mouths
+  - painters
+  - planets
+  - prostaglandin
+  - skulls
+  - softdrinks
+  - sportsranks
+  - states
+
+navbar:
+  components:
+    home: ~

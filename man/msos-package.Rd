@@ -16,7 +16,6 @@ Multivariate Analysis methods and data sets used
 Useful links:
 \itemize{
   \item \url{https://github.com/coatless/msos}
-  \item \url{https://istics.net/stat/Multivariate/}
   \item \url{https://coatless.github.io/msos/}
   \item Report bugs at \url{https://github.com/coatless/msos/issues}
 }

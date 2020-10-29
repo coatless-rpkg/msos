@@ -1,7 +1,7 @@
 Package: msos
 Type: Package
 Title: Data Sets and Functions Used in Multivariate Statistics: Old School by John Marden
-Version: 1.1.1
+Version: 1.1.2
 Authors@R: c(
              person("John", "Marden", role = c("aut", "cph"),
                     email = "jimarden@illinois.edu"),

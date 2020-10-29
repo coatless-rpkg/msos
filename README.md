@@ -5,8 +5,8 @@
 
 <!-- badges: start -->
 
-[![Travis build
-status](https://travis-ci.org/coatless/msos.svg?branch=master)](https://travis-ci.org/coatless/msos)
+[![R build
+status](https://github.com/coatless/msos/workflows/R-CMD-check/badge.svg)](https://github.com/coatless/msos/actions)
 [![CRAN RStudio mirror
 downloads](http://cranlogs.r-pkg.org/badges/msos)](http://www.r-pkg.org/pkg/msos)
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/msos)](https://cran.r-project.org/package=msos)

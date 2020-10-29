@@ -4,7 +4,8 @@
 \name{painters}
 \alias{painters}
 \title{The Painter's Data of de Piles}
-\format{The row names of the data frame are the painters. The components
+\format{
+The row names of the data frame are the painters. The components
 are:
 \describe{
   \item{Composition}{ Composition score.}
@@ -21,7 +22,8 @@ are:
                  \code{"F"}: Sixteenth Century;
                  \code{"G"}: Seventeenth Century;
                  \code{"H"}: French.  }
-}}
+}
+}
 \source{
 A. J. Weekes (1986) \emph{A Genstat Primer.} Edward Arnold.
 

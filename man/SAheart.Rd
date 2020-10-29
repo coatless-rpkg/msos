@@ -4,7 +4,8 @@
 \name{SAheart}
 \alias{SAheart}
 \title{South African Hearth Disease Data}
-\format{A data frame with 462 observations on the following 10 variables.
+\format{
+A data frame with 462 observations on the following 10 variables.
 \describe{
  \item{sbp}{systolic blood pressure}
  \item{tobacco}{cumulative tobacco (kg)}
@@ -17,7 +18,8 @@
  \item{alcohol}{current alcohol consumption}
  \item{age}{age at onset}
  \item{chd}{response, coronary heart disease}
-}}
+}
+}
 \source{
 Rousseauw, J., du Plessis, J., Benade, A., Jordaan, P., Kotze, J.
 and Ferreira, J. (1983). Coronary risk factor screening in three rural

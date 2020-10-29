@@ -4,7 +4,8 @@
 \name{states}
 \alias{states}
 \title{States}
-\format{A double matrix with 51 observations on the following 11 variables.
+\format{
+A double matrix with 51 observations on the following 11 variables.
 \describe{
   \item{Population}{In thousands}
   \item{PctCities}{The percentage of the population that lives in
@@ -20,7 +21,8 @@
   \item{Poverty}{Percentage of people below the poverty line.}
   \item{Employment}{Percentage of people employed}
   \item{Income}{Median household income}
-}}
+}
+}
 \source{
 United States (1996) Statistical Abstract of the United States.
 Bureau of the Census.

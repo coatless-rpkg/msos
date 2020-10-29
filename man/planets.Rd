@@ -4,7 +4,8 @@
 \name{planets}
 \alias{planets}
 \title{Planets}
-\format{A double matrix with 9 observations on the following 6 variables.
+\format{
+A double matrix with 9 observations on the following 6 variables.
 \describe{
   \item{Distance}{Average distance in millions of miles the planet is from
                  the sun.}
@@ -13,7 +14,8 @@
   \item{Diameter}{The planet's diameter in miles}
   \item{Temperature}{The planet's temperature in degrees Fahrenheit}
   \item{Moons}{Number of moons}
-}}
+}
+}
 \source{
 John W. Wright, editor. The Universal Almanac. Andrews McMeel
 Publishing, Kansas City, MO, 1997.

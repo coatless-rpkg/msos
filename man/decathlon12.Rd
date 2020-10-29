@@ -4,7 +4,8 @@
 \name{decathlon12}
 \alias{decathlon12}
 \title{Decathlon Event Data from 2012 Olympics.}
-\format{A double matrix with 26 observations on the following 11 variables.
+\format{
+A double matrix with 26 observations on the following 11 variables.
 \describe{
   \item{Meter100}{Individual point score for 100 Meter event.}
   \item{LongJump}{Individual point score for Long Jump event.}
@@ -16,7 +17,8 @@
   \item{PoleVault}{Individual point score for Pole Vault event.}
   \item{Javelin}{Individual point score for Javelin event.}
   \item{Meter1500}{Individual point score for 1500 Meter event.}
-  \item{Total}{Individual total point score for events participated in.} }}
+  \item{Total}{Individual total point score for events participated in.} }
+}
 \source{
 NBC's Olympic site
 }

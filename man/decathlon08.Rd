@@ -4,7 +4,8 @@
 \name{decathlon08}
 \alias{decathlon08}
 \title{Decathlon Event Data from 2008 Olympics.}
-\format{A double matrix with 24 observations on the following 11 variables.
+\format{
+A double matrix with 24 observations on the following 11 variables.
 \describe{
   \item{X_100meter}{Individual point score for 100 Meter event.}
   \item{LongJump}{Individual point score for Long Jump event.}
@@ -17,7 +18,8 @@
   \item{Javelin}{Individual point score for Javelin event.}
   \item{X_1500meter}{Individual point score for 1500 Meter event.}
   \item{Total}{Individual total point score for events participated in.}
-}}
+}
+}
 \source{
 NBC's Olympic site
 }

@@ -4,7 +4,8 @@
 \name{cereal}
 \alias{cereal}
 \title{Cereal}
-\format{A double matrix with 8 observations on the following 11 variables.
+\format{
+A double matrix with 8 observations on the following 11 variables.
 \describe{
   \item{Return}{A cereal one would come back to}
   \item{Tasty}{Tastes good}
@@ -16,7 +17,8 @@
   \item{Crispy}{Stays crispy in milk}
   \item{Fit}{Keeps one fit}
   \item{Fun}{Fun for children}
-}}
+}
+}
 \source{
 T. K. Chakrapani and A. S. C. Ehrenberg. An alternative to factor
 analysis in marketing research part 2: Between group analysis. Professional

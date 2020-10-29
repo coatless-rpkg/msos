@@ -4,7 +4,8 @@
 \name{cars}
 \alias{cars}
 \title{Automobile Data from Consumer Reports}
-\format{A double matrix with 111 observations on the following 11 variables.
+\format{
+A double matrix with 111 observations on the following 11 variables.
 \describe{
  \item{Length}{Overall length, in inches, as supplied by manufacturer.}
  \item{Wheelbase}{Length of wheelbase, in inches, as supplied by
@@ -22,7 +23,8 @@
  \item{FrtShld}{Front shoulder room, in inches, as measured by CU.}
  \item{RearShld}{Rear shoulder room, in inches, as measured by CU.}
  \item{Luggage}{Luggage Area in Car.}
-}}
+}
+}
 \source{
 Consumers' Union. Body dimensions. Consumer Reports, April 286 -
 288, 1990.

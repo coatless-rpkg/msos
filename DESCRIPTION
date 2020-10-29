@@ -20,4 +20,4 @@ Depends: R (>= 3.0.0), mclust, tree
 License: MIT + file LICENSE
 LazyData: true
 Encoding: UTF-8
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.1

@@ -4,7 +4,8 @@
 \name{histamine}
 \alias{histamine}
 \title{Histamine in Dogs}
-\format{A double matrix with 16 observations on the following 4 variables.
+\format{
+A double matrix with 16 observations on the following 4 variables.
 \describe{
   \item{Before}{Histamine levels (in micrograms per milliliter of blood)
                 before the inoculation.}
@@ -14,7 +15,8 @@
                 three minute after inoculation.}
   \item{After5}{Histamine levels (in micrograms per milliliter of blood)
                 five minutes after inoculation.}
-}}
+}
+}
 \source{
 Kenny J.Morris and Robert Zeppa. Histamine-induced hypotension due
 to morphine and arfonad in the dog. Journal of Surgical Research,

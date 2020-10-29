@@ -4,7 +4,8 @@
 \name{crabs}
 \alias{crabs}
 \title{Morphological Measurements on Leptograpsus Crabs}
-\format{This data frame contains the following columns:
+\format{
+This data frame contains the following columns:
 \describe{
   \item{sp}{\code{species} - \code{"B"} or \code{"O"} for blue or orange.}
   \item{sex}{\code{"M"} (Male) or \code{"F"} (Female).}
@@ -14,7 +15,8 @@
   \item{CL}{carapace length (mm).}
   \item{CW}{carapace width (mm).}
   \item{BD}{body depth (mm).}
-}}
+}
+}
 \source{
 Campbell, N.A. and Mahon, R.J. (1974) A multivariate study of
 variation in two species of rock crab of genus \emph{Leptograpsus.}

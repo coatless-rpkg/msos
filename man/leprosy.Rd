@@ -4,12 +4,14 @@
 \name{leprosy}
 \alias{leprosy}
 \title{Leprosy Patients}
-\format{A double matrix with 30 observations on the following 3 variables.
+\format{
+A double matrix with 30 observations on the following 3 variables.
 \describe{
   \item{Before}{Bacterial count taken before receiving the treatment.}
   \item{After}{Bacterial count taken after receiving the treatment.}
   \item{Group}{Group Coding: 0 = Drug A, 1 = Drug B, 2 = Placebo}
-}}
+}
+}
 \source{
 George W. Snedecor and William G. Cochran. Statistical Methods. Iowa
 State University Press, Ames, Iowa, eighth edition, 1989.

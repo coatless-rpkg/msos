@@ -4,7 +4,8 @@
 \name{prostaglandin}
 \alias{prostaglandin}
 \title{Prostaglandin}
-\format{A double matrix with 10 observations on the following 6 variables.
+\format{
+A double matrix with 10 observations on the following 6 variables.
 \describe{
   \item{T1}{First four-hour interval measurement of prostaglandin.}
   \item{T2}{Second four-hour interval measurement of prostaglandin.}
@@ -12,7 +13,8 @@
   \item{T4}{Fourth four-hour interval measurement of prostaglandin.}
   \item{T5}{Fifth four-hour interval measurement of prostaglandin.}
   \item{T6}{Sixth four-hour interval measurement of prostaglandin.}
-}}
+}
+}
 \source{
 J H Ware and R E Bowden. Circadian rhythm analysis when output is
 collected at intervals. Biometrics, 33(3):566-571, 1977.

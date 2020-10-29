@@ -4,7 +4,8 @@
 \name{sportsranks}
 \alias{sportsranks}
 \title{Sports ranking}
-\format{A double matrix with 130 observations on the following 7 variables.
+\format{
+A double matrix with 130 observations on the following 7 variables.
 \describe{
   \item{Baseball}{Baseball's ranking out of seven sports.}
   \item{Football}{Football's ranking out of seven sports.}
@@ -13,7 +14,8 @@
   \item{Cycling}{Cycling's ranking out of seven sports.}
   \item{Swimming}{Swimming's ranking out of seven sports.}
   \item{Jogging}{Jogging's ranking out of seven sports.}
-}}
+}
+}
 \source{
 Data from one of Prof. John Marden's earlier classes
 }

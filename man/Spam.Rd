@@ -4,7 +4,8 @@
 \name{Spam}
 \alias{Spam}
 \title{Spam}
-\format{A double matrix with 4601 observations on the following 58
+\format{
+A double matrix with 4601 observations on the following 58
 variables.
 \describe{
   \item{WFmake}{Percentage of words in the e-mail that match make.}
@@ -68,7 +69,8 @@ variables.
   \item{CRLtotal}{Total number of capital letters in the e-mail}
   \item{spam}{Denotes whether the e-mail was considered spam (1) or not (0),
               i.e. unsolicited commercial e-mail.}
-}}
+}
+}
 \source{
 Mark Hopkins, Erik Reeber, George Forman, and Jaap Suermondt. Spam
 data. Hewlett-Packard Labs, 1501 Page Mill Rd., Palo Alto, CA 94304, 1999.

@@ -48,8 +48,7 @@ lda <-
     ak <- NULL
     vi <- solve(v)
     for (k in 1:K) {
-      c0 <- -(1 / 2) * (m[k, ] %*% vi %*% m[k, ] - m[K, ] %*% vi %*% m[K, ])
-      +log(phat[k] / phat[K])
+      c0 <- -(1 / 2) * (m[k, ] %*% vi %*% m[k, ] - m[K, ] %*% vi %*% m[K, ]) + log(phat[k] / phat[K])
       ck <- c(ck, c0)
       a0 <- vi %*% (m[k, ] - m[K, ])
       ak <- cbind(ak, a0)

@@ -7,6 +7,9 @@
 
 0 errors | 0 warnings | 0 note
 
+- This fixes a note with URL redirects that came up during the submission.
+
 ## Reverse dependencies
 
-There are no reverse dependencies
+There is one reverse dependency: the `Semblance` package. However, that package
+does not depend on any of `msos`' functions.

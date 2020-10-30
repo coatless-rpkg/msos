@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![R build status](https://github.com/coatless/msos/workflows/R-CMD-check/badge.svg)](https://github.com/coatless/msos/actions)
 [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/msos)](https://cran.r-project.org/package=msos)
-[![CRAN_Status_Badge](https://www.r-pkg.org/pkg/msos)](https://cran.r-project.org/package=msos)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/msos)](https://cran.r-project.org/package=msos)
 <!-- badges: end -->
 
 Multivariate Analysis methods and data sets used

@@ -1,4 +1,4 @@
-# msos 1.1.2 - Hotfix - "Old School Unbalanced"
+# msos 1.2.0 - Hotfix - "Old School Unbalanced"
 
 ## CHANGES
 

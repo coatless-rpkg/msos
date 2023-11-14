@@ -23,6 +23,8 @@
 <![endif]-->
 </head>
 <body data-spy="scroll" data-target="#toc">
+    
+
     <div class="container template-home">
       <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -50,8 +52,8 @@
       </ul>
 <ul class="nav navbar-nav navbar-right">
 <li>
-  <a href="https://github.com/coatless/msos/">
-    <span class="fab fa fab fa-github fa-lg"></span>
+  <a href="https://github.com/coatless-rpkg/msos/" class="external-link">
+    <span class="fab fa-github fa-lg"></span>
      
   </a>
 </li>
@@ -67,34 +69,34 @@
 
       </header><div class="row">
   <div class="contents col-md-9">
-<div id="msos" class="section level2">
-<h2 class="hasAnchor">
-<a href="#msos" class="anchor"></a>msos</h2>
+<div class="section level2">
+<h2 id="msos">msos<a class="anchor" aria-label="anchor" href="#msos"></a>
+</h2>
 <!-- badges: start -->
 
-<p>Multivariate Analysis methods and data sets used in John Marden’s <a href="https://stat.istics.net/Multivariate/">Multivariate Statistics: Old School</a> (2015) ISBN: <a href="https://www.amazon.com/gp/product/1456538837">978-1456538835</a>. This also serves a companion package for the STAT 571: Multivariate Analysis course offered in the <a href="https://stat.illinois.edu">Department of Statistics</a> at the <a href="https://illinois.edu">University of Illinois at Urbana-Champaign (UIUC)</a>.</p>
-<div id="installation" class="section level3">
-<h3 class="hasAnchor">
-<a href="#installation" class="anchor"></a>Installation</h3>
+<p>Multivariate Analysis methods and data sets used in John Marden’s <a href="https://stat.istics.net/Multivariate/" class="external-link">Multivariate Statistics: Old School</a> (2015) ISBN: <a href="https://www.amazon.com/gp/product/1456538837" class="external-link">978-1456538835</a>. This also serves a companion package for the STAT 571: Multivariate Analysis course offered in the <a href="https://stat.illinois.edu" class="external-link">Department of Statistics</a> at the <a href="https://illinois.edu" class="external-link">University of Illinois at Urbana-Champaign (UIUC)</a>.</p>
+<div class="section level3">
+<h3 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
+</h3>
 <p>The <code>msos</code> package is available on both CRAN and GitHub. The CRAN version is considered stable while the GitHub version is in a state of development and may break.</p>
 <p>You can install the stable version of the <code>msos</code> package with:</p>
-<div class="sourceCode" id="cb1"><pre class="downlit">
-<span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span><span class="op">(</span><span class="st">"msos"</span><span class="op">)</span></pre></div>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"msos"</span><span class="op">)</span></span></code></pre></div>
 <p>For those who like living on the edge, feel free to use a copy of the development version by doing:</p>
-<div class="sourceCode" id="cb2"><pre class="downlit">
-<span class="kw">if</span><span class="op">(</span><span class="op">!</span><span class="fu"><a href="https://rdrr.io/r/base/ns-load.html">requireNamespace</a></span><span class="op">(</span><span class="st">"remotes"</span><span class="op">)</span><span class="op">)</span> <span class="op">{</span> <span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span><span class="op">(</span><span class="st">"remotes"</span><span class="op">)</span> <span class="op">}</span>
-
-<span class="co"># Install the package from github</span>
-<span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">"coatless/msos"</span><span class="op">)</span></pre></div>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="kw">if</span><span class="op">(</span><span class="op">!</span><span class="fu"><a href="https://rdrr.io/r/base/ns-load.html" class="external-link">requireNamespace</a></span><span class="op">(</span><span class="st">"remotes"</span><span class="op">)</span><span class="op">)</span> <span class="op">{</span> <span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"remotes"</span><span class="op">)</span> <span class="op">}</span></span>
+<span></span>
+<span><span class="co"># Install the package from github</span></span>
+<span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"coatless-rpkg/msos"</span><span class="op">)</span></span></code></pre></div>
 </div>
-<div id="authors" class="section level3">
-<h3 class="hasAnchor">
-<a href="#authors" class="anchor"></a>Authors</h3>
+<div class="section level3">
+<h3 id="authors">Authors<a class="anchor" aria-label="anchor" href="#authors"></a>
+</h3>
 <p>John Marden and James Balamuta</p>
 </div>
-<div id="licensing" class="section level3">
-<h3 class="hasAnchor">
-<a href="#licensing" class="anchor"></a>Licensing</h3>
+<div class="section level3">
+<h3 id="licensing">Licensing<a class="anchor" aria-label="anchor" href="#licensing"></a>
+</h3>
 <p>MIT</p>
 </div>
 </div>
@@ -102,51 +104,54 @@
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <div class="links">
-<h2>Links</h2>
+<h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
-<li>Download from CRAN at <br><a href="https://cloud.r-project.org/package=msos">https://​cloud.r-project.org/​package=msos</a>
-</li>
-<li>Browse source code at <br><a href="https://github.com/coatless/msos/">https://​github.com/​coatless/​msos/​</a>
-</li>
-<li>Report a bug at <br><a href="https://github.com/coatless/msos/issues">https://​github.com/​coatless/​msos/​issues</a>
-</li>
-</ul>
-</div>
-<div class="license">
-<h2>License</h2>
-<ul class="list-unstyled">
-<li>
-<a href="https://opensource.org/licenses/mit-license.php">MIT</a> + file <a href="LICENSE-text.html">LICENSE</a>
-</li>
-</ul>
-</div>
-<div class="developers">
-<h2>Developers</h2>
-<ul class="list-unstyled">
-<li>
-<a href="https://istics.net/">John Marden</a> <br><small class="roles"> Author, copyright holder </small>  </li>
-<li>James Balamuta <br><small class="roles"> Maintainer, contributor, compiler </small> <a href="https://orcid.org/0000-0003-2826-8458" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li><a href="https://cloud.r-project.org/package=msos" class="external-link">View on CRAN</a></li>
+<li><a href="https://github.com/coatless-rpkg/msos/" class="external-link">Browse source code</a></li>
+<li><a href="https://github.com/coatless-rpkg/msos/issues" class="external-link">Report a bug</a></li>
 </ul>
 </div>
 
-  <div class="dev-status">
-<h2>Dev status</h2>
+<div class="license">
+<h2 data-toc-skip>License</h2>
 <ul class="list-unstyled">
-<li><a href="https://github.com/coatless/msos/actions"><img src="https://github.com/coatless/msos/workflows/R-CMD-check/badge.svg" alt="R build status"></a></li>
-<li><a href="https://cran.r-project.org/package=msos"><img src="https://cranlogs.r-pkg.org/badges/msos" alt="CRAN RStudio mirror downloads"></a></li>
-<li><a href="https://cran.r-project.org/package=msos"><img src="https://www.r-pkg.org/badges/version/msos" alt="CRAN_Status_Badge"></a></li>
+<li>
+<a href="https://opensource.org/licenses/mit-license.php" class="external-link">MIT</a> + file <a href="LICENSE-text.html">LICENSE</a>
+</li>
 </ul>
 </div>
+
+
+<div class="citation">
+<h2 data-toc-skip>Citation</h2>
+<ul class="list-unstyled">
+<li><a href="authors.html#citation">Citing msos</a></li>
+</ul>
 </div>
+
+<div class="developers">
+<h2 data-toc-skip>Developers</h2>
+<ul class="list-unstyled">
+<li>
+<a href="https://istics.net/" class="external-link">John Marden</a> <br><small class="roles"> Author, copyright holder </small>  </li>
+<li>James Balamuta <br><small class="roles"> Maintainer, contributor, compiler </small> <a href="https://orcid.org/0000-0003-2826-8458" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+</ul>
+</div>
+
+
+
+  </div>
 </div>
 
 
       <footer><div class="copyright">
-  <p>Developed by <a href="https://istics.net/">John Marden</a>, James Balamuta.</p>
+  <p></p>
+<p>Developed by <a href="https://istics.net/" class="external-link">John Marden</a>, James Balamuta.</p>
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.</p>
+  <p></p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.7.</p>
 </div>
 
       </footer>
@@ -154,6 +159,8 @@
 
   
 
+
+  
 
   </body>
 </html>

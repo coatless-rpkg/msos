@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://coatless.github.io/msos/404.html</loc>
+  </url>
+  <url>
+    <loc>https://coatless.github.io/msos/LICENSE-text.html</loc>
+  </url>
+  <url>
+    <loc>https://coatless.github.io/msos/authors.html</loc>
+  </url>
+  <url>
     <loc>https://coatless.github.io/msos/index.html</loc>
+  </url>
+  <url>
+    <loc>https://coatless.github.io/msos/news/index.html</loc>
   </url>
   <url>
     <loc>https://coatless.github.io/msos/reference/SAheart.html</loc>
@@ -13,9 +25,6 @@
     <loc>https://coatless.github.io/msos/reference/births.html</loc>
   </url>
   <url>
-    <loc>https://coatless.github.io/msos/reference/bothsidesmodel.html</loc>
-  </url>
-  <url>
     <loc>https://coatless.github.io/msos/reference/bothsidesmodel.chisquare.html</loc>
   </url>
   <url>
@@ -23,6 +32,9 @@
   </url>
   <url>
     <loc>https://coatless.github.io/msos/reference/bothsidesmodel.hotelling.html</loc>
+  </url>
+  <url>
+    <loc>https://coatless.github.io/msos/reference/bothsidesmodel.html</loc>
   </url>
   <url>
     <loc>https://coatless.github.io/msos/reference/bothsidesmodel.lrt.html</loc>
@@ -71,6 +83,9 @@
   </url>
   <url>
     <loc>https://coatless.github.io/msos/reference/imax.html</loc>
+  </url>
+  <url>
+    <loc>https://coatless.github.io/msos/reference/index.html</loc>
   </url>
   <url>
     <loc>https://coatless.github.io/msos/reference/lda.html</loc>

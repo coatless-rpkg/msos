@@ -26,7 +26,7 @@ reference:
   - pcbic
   - pcbic.stepwise
   - pcbic.unite
-  - pcbic.subpatterns.
+  - pcbic.subpatterns
 - title: Discrimination
   desc: >
     Approaches to separate known groups in a multivariate sample.

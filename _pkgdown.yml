@@ -56,6 +56,11 @@ reference:
   - imax
   - fillout
   - reverse.kronecker
+- title: Both Sides Model Helpers
+  desc: >
+    Helper functions that allow for the bothsidesmodel to be computed.
+  - bsm.fit
+  - bsm.simple
 - title: Data Sets
   desc: >
     Various multivariate data sets.

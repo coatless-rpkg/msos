@@ -59,6 +59,7 @@ reference:
 - title: Both Sides Model Helpers
   desc: >
     Helper functions that allow for the bothsidesmodel to be computed.
+  contents:
   - bsm.fit
   - bsm.simple
 - title: Data Sets

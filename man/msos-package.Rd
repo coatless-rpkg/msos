@@ -6,18 +6,14 @@
 \alias{msos-package}
 \title{msos: Data Sets and Functions Used in Multivariate Statistics: Old School by John Marden}
 \description{
-Multivariate Analysis methods and data sets used
-    in John Marden's book Multivariate Statistics: Old School (2015) <ISBN:978-1456538835>.
-    This also serves as a companion package for the 
-    STAT 571: Multivariate Analysis course offered by the Department of Statistics
-    at the University of Illinois at Urbana-Champaign ('UIUC').
+Multivariate Analysis methods and data sets used in John Marden's book Multivariate Statistics: Old School (2015) <ISBN:978-1456538835>. This also serves as a companion package for the STAT 571: Multivariate Analysis course offered by the Department of Statistics at the University of Illinois at Urbana-Champaign ('UIUC').
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/coatless/msos}
-  \item \url{https://coatless.github.io/msos/}
-  \item Report bugs at \url{https://github.com/coatless/msos/issues}
+  \item \url{https://github.com/coatless-rpkg/msos}
+  \item \url{https://r-pkg.thecoatlessprofessor.com/msos/}
+  \item Report bugs at \url{https://github.com/coatless-rpkg/msos/issues}
 }
 
 }

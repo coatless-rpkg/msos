@@ -14,10 +14,10 @@ Description: Multivariate Analysis methods and data sets used
     This also serves as a companion package for the 
     STAT 571: Multivariate Analysis course offered by the Department of Statistics
     at the University of Illinois at Urbana-Champaign ('UIUC'). 
-URL: https://github.com/coatless/msos, https://coatless.github.io/msos/
-BugReports: https://github.com/coatless/msos/issues
+URL: https://github.com/coatless-rpkg/msos, https://r-pkg.thecoatlessprofessor.com/msos/
+BugReports: https://github.com/coatless-rpkg/msos/issues
 Depends: R (>= 3.0.0), mclust, tree
 License: MIT + file LICENSE
 LazyData: true
 Encoding: UTF-8
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3

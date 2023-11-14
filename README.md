@@ -5,11 +5,10 @@
 
 <!-- badges: start -->
 
-[![R build
-status](https://github.com/coatless/msos/workflows/R-CMD-check/badge.svg)](https://github.com/coatless/msos/actions)
+[![R-CMD-check](https://github.com/coatless-rpkg/msos/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/coatless-rpkg/msos/actions/workflows/R-CMD-check.yaml)
 [![CRAN RStudio mirror
 downloads](https://cranlogs.r-pkg.org/badges/msos)](https://cran.r-project.org/package=msos)
-[![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/msos)](https://cran.r-project.org/package=msos)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/msos)](https://cran.r-project.org/package=msos)
 <!-- badges: end -->
 
 Multivariate Analysis methods and data sets used in John Marden’s
@@ -40,7 +39,7 @@ development version by doing:
 if(!requireNamespace("remotes")) { install.packages("remotes") }
 
 # Install the package from github
-remotes::install_github("coatless/msos")
+remotes::install_github("coatless-rpkg/msos")
 ```
 
 ### Authors

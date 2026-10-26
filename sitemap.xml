@@ -1,165 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://coatless.github.io/msos/404.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/LICENSE-text.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/index.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/news/index.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/SAheart.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/Spam.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/births.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/bothsidesmodel.chisquare.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/bothsidesmodel.df.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/bothsidesmodel.hotelling.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/bothsidesmodel.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/bothsidesmodel.lrt.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/bothsidesmodel.mle.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/bsm.fit.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/bsm.simple.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/caffeine.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/cars.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/cereal.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/crabs.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/decathlon08.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/decathlon12.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/election.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/exams.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/fillout.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/grades.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/histamine.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/imax.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/lda.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/leprosy.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/logdet.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/mouths.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/msos-package.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/negent.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/negent2D.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/negent3D.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/painters.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/pcbic.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/pcbic.stepwise.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/pcbic.subpatterns.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/pcbic.unite.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/planets.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/predict_qda.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/prostaglandin.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/qda.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/reverse.kronecker.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/silhouette.km.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/skulls.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/softdrinks.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/sort_silhouette.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/sportsranks.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/states.html</loc>
-  </url>
-  <url>
-    <loc>https://coatless.github.io/msos/reference/tr.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/404.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/LICENSE-text.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/authors.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/index.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/news/index.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/SAheart.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/Spam.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/births.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/bothsidesmodel.chisquare.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/bothsidesmodel.df.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/bothsidesmodel.hotelling.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/bothsidesmodel.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/bothsidesmodel.lrt.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/bothsidesmodel.mle.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/bsm.fit.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/bsm.simple.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/caffeine.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/cars.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/cereal.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/crabs.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/decathlon08.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/decathlon12.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/election.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/exams.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/fillout.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/grades.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/histamine.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/imax.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/index.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/lda.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/leprosy.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/logdet.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/mouths.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/msos-package.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/negent.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/negent2D.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/negent3D.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/painters.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/pcbic.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/pcbic.stepwise.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/pcbic.subpatterns.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/pcbic.unite.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/planets.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/predict_qda.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/prostaglandin.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/qda.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/reverse.kronecker.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/silhouette.km.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/skulls.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/softdrinks.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/sort_silhouette.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/sportsranks.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/states.html</loc></url>
+<url><loc>https://r-pkg.thecoatlessprofessor.com/msos/reference/tr.html</loc></url>
 </urlset>
+

@@ -1,4 +1,4 @@
-url: https://coatless.github.io/msos
+url: https://r-pkg.thecoatlessprofessor.com/msos/
 
 home:
   strip_header: true
@@ -90,5 +90,10 @@ reference:
   - states
 
 navbar:
+  structure:
+    left: [intro, reference, articles, tutorials, news, blog]
   components:
+    blog:
+      text: Blog posts
+      href: https://blog.thecoatlessprofessor.com/projects/msos/
     home: ~
